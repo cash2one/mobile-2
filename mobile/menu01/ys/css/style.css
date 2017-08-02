@@ -13,7 +13,7 @@ a{text-decoration:none;}
 
 
 .lsy_o{width:100%; margin:0 auto;}
-.lsy_o a img{width:100%; padding-top:0.2rem;}
+.lsy_o img{width:100%; padding-top:0.2rem;}
 .lsy_t {width:90%; margin:0 auto;font-size:0.38rem;color:#333;padding-top:0.22rem;}
 .lsy_t img{width:100%;padding-top:0.28rem;}
 .lsy_t_o {width:85%; margin:0 auto;}
@@ -25,5 +25,5 @@ a{text-decoration:none;}
 .lsy_t .lsy_t_f{width:90%;margin:0 auto;}
 .lsy_t_f_f{width:100%; margin:0 auto;border-left:2.5px solid #f00;border-right:2.5px solid #f00;border-bottom:2.5px solid #f00;}
 .lsy_t .lsy_t_f h1{width:100%;padding-top:0.22rem;font-size:0.38rem;color:#333;}
-.lsy_t .lsy_t_f span{width:100%;padding-top:0.22rem;font-size:0.38rem;color:#666;}
+.lsy_t .lsy_t_f span{color:#666;}
 
