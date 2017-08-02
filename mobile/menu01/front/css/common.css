@@ -1,0 +1,34 @@
+/* 代码整理：大头网 www.datouwang.com
+.Z_con2_2{width:100%;background:#ffffff;height: 100%;osition:fixed;} */
+.Z_con2_2{width:100%;background:#ffffff;height: 100%;overflow-y:auto;osition:fixed;}
+
+.F_wd_top_con2{width:100%;  background:#ffffff; border-top:0.1em solid #ccc;osition:fixed;}
+
+.F_wd_top_con2_l{width:45%; background:#f2f2f2; float:left;height: 100%;}
+.F_wd_top_con2_l ul li { line-height:3.5em; text-indent:1em; background:#2e3641;}
+.F_wd_top_con2_l ul li img{width:25%;}
+.F_wd_top_con2_r{width:55%;float:right;height: 100%;}
+.F_wd_top_con2_r ul li{ line-height:3.2em; text-indent:1em; background:#f2f2f2;}
+
+.F_wd_top_con2_r_borb1{ border-bottom:0.1em solid #2b57ae;}
+.F_wd_top_con2_r_borb2{ border-bottom:0.1em solid #fff; color:#2b57ae;}
+
+
+.F_wd_top_con2_l_1{ width:40%; float:left;}
+.F_wd_top_con2_l_1 ul li{ line-height:3.2em; text-indent:1em; }
+.F_wd_top_con2_r_1{ width:55%;  float:right;}
+.F_wd_top_con2_r_1 ul li{ line-height:3.2em; text-indent:1em;}
+
+.F_wd_top_con2_l_2{width:40%; background:#f2f2f2; float:left;}
+.F_wd_top_con2_l_2 ul li{ line-height:3.2em; text-indent:1em; border-bottom:0.1em solid #f2f2f2;}
+.F_wd_top_con2_r_2{width:55%;  float:right;}
+.F_wd_top_con2_r_2 ul li{ line-height:3.2em; text-indent:1em;}
+
+
+.current{background: ; color: #2b57ae;text-align:center;}/* 点击的时候改变 */
+.by{display: none;}
+
+
+/**********知情********
+
+@media screen and (min-height:660px){} **/

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!-- uc强制竖屏 -->
+	<meta name="screen-orientation" content="portrait">
+	<!-- QQ强制竖屏 -->
+	<meta name="x5-orientation" content="portrait">
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 -->
+	<meta name="x5-fullscreen" content="true">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-cache" />
+    <title>来院路线</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="路线" />
+    <link href="front/css/style.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" href="front/css/owl.carousel.css" rel="stylesheet"/>
+    <link type="text/css" href="front/css/owl.theme.css" rel="stylesheet"/>
+	<link href="../front/css/bottom.css" rel="stylesheet" />
+    <script src="front/js/jquery-1.9.1.min.js"></script>
+    <script src="front/js/dzsjyy.js"></script>
+    <script src="front/js/idangerous.swiper-2.1.min.js"></script>
+	<link rel="stylesheet" href="swiper-3.2.7.min.css">  
+	<link rel="stylesheet" href="front/css/swiper-3.4.2.min.css">
+ <!-- Demo styles -->
+    <style>
+  
+    .swiper-container {
+        width: 100%;
+           }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: ##ffffff;
+        line-height: 300px;
+    }
+    </style>
+
+</head>
+<body>
+
+<div class="map000"> 
+<iframe width=100% height='340' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/6mEbE_0B235Ng'></iframe>
+</div>
+
+<div class="zpic"><img src="front/images/map001.png"></div>
+<div class="zpic"><img src="front/images/map002.png"></div> 
+<div class="zpic"><img src="front/images/map003.png"></div>
+<div class="zpic"><img src="front/images/map004.png"></div> 
+<div class="index_case_img"><a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn"><img src="front/images/mapzx.png"></a></div> 
+
+<div class="maplt">	
+<h2>到了双均后，她们都这样说</h2> 
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="front/images/maplt001.png"></div>
+         <div class="swiper-slide"><img src="front/images/maplt002.png"></div>
+         <div class="swiper-slide"><img src="front/images/maplt003.png"></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- 如果需要滚动条 -->
+    <div class="swiper-scrollbar"></div>
+</div>
+</div>
+
+	<div class="dwn">
+		<ul>
+			<li style="border:none;width:37%;"><a href=""><span class="do_o_o"><img src="front/images/foot_ico2.png"></span>&nbsp;五月特惠</a></li>
+			<li style="border:none;width:37%;"><a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn"><span class="do_o_s"><img src="front/images/foot_ico4.png"></span>&nbsp;悄悄提问</a></li>
+			<li style="border:none;width:26%;"><a href="../index.htm"><span class="do_o_t"><img src="front/images/foot_ico1.png"></span><p>返回首页<p></a></li>
+		</ul>
+	</div> 
+
+
+
+<script src="front/js/owl.carousel.js"></script>
+<script>
+(function(doc, win) {
+var docEl = doc.documentElement,
+isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+docEl.dataset.dpr = dpr;
+var recalc = function() {
+var width = docEl.clientWidth;
+if (width / dpr > 750) {
+width = 750 * dpr;
+}
+docEl.dataset.width = width
+docEl.dataset.percent = 100 * (width / 750);
+docEl.style.fontSize = 100 * (width / 750) + 'px';
+};
+recalc()
+if (!doc.addEventListener) return;
+win.addEventListener(resizeEvt, recalc, false);
+})(document, window);
+</script>
+  <!-- Swiper JS -->
+    <script src="front/js/swipe-3.4.2.jquery.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationType: 'fraction'
+    });
+    </script>
+</body>
+</html>
