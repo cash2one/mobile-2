@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	<meta name="renderer" content="webkit">	
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:field name='keywords'/}" />	
+	<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />	
+	<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style_cs_index.css" />
+	<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/top.css" />
+	<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{dede:global.cfg_templets_skin/}/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{dede:global.cfg_templets_skin/}/js/jquery_brand.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+function Dispaly_All(nones){
+	 $("."+nones).nextAll(".ctablk").removeClass('change_1');
+	 $("."+nones).css({display:'none'});
+}
+</script>
+	<base target="_blank"/>
+	<script type="text/javascript">
+var system ={
+	win : false,
+	mac : false,
+	xll : false
+};
+var p = navigator.platform;
+system.win = p.indexOf("Win") == 0;
+system.mac = p.indexOf("Mac") == 0;
+system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+if(system.win||system.mac||system.xll){
+}else{
+	window.location.href="http://m.dzsjmr.com/";
+}
+</script>
+</head>
+<body>
+	<div class="wrap project_list">
+		<!--公用头部开始-->
+		{dede:include filename="header.htm"/}
+		<!--公用头部结束-->
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/more.css" />
+		<div class="on_float float_project nav11">
+			<!--<div class="float_arrow arrow_top"></div>
+		-->
+		<ul class="project_on_list georgia-title" id="links"> <i class="sprite-h gtitle-deco above"></i>
+			<li class="ppdx_1">眼部整形</li>
+			<li class="ppdx_2">鼻部整形</li>
+			<li class="ppdx_3">面部整形</li>
+			<li class="ppdx_4">胸部整形</li>
+			<li class="ppdx_5">吸脂瘦身</li>
+			<li class="ppdx_6">肌肤除皱</li>
+			<li class="ppdx_7">微整形</li>
+			<li class="ppdx_8">皮肤美容</li>
+			<li class="ppdx_9">纹绣美容</li>
+			<li class="ppdx_10">注射美容</li>
+			<!-- <li class="ppdx_11">最新活动</li> --> <i class="sprite-h gtitle-deco below"></i>
+		</ul>
+		<!--<div class="float_arrow arrow_bottom"></div>
+	-->
+</div>
+<div class="banner_slider">
+	<img src="{dede:global.cfg_templets_skin/}/images/zhuanti_banner.jpg"/>
+</div>
+<div class="pro_con">
+
+<!-- 眼部 -->
+	<div class="ppdx_con">
+		<a name='ztlm265'></a>
+		<div class="pro_tit" id="ppdx_1">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_02.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- 眼部专题 -->	
+		<div class="bg11">
+			{dede:arclist typeid='595'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88265" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88265)"></div>
+			</div>
+			<!-- 眼部更多 -->	
+			{dede:arclist typeid='595'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- End 眼部 -->
+
+<!--  鼻部 -->
+	<div class="ppdx_con">
+		<a name='ztlm264'></a>
+		<div class="pro_tit" id="ppdx_2">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_01.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--  鼻部专题 -->	
+		<div class="bg11">
+			{dede:arclist typeid='596'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88264" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88264)"></div>
+			</div>
+			<!--  鼻部更多 -->	
+			{dede:arclist typeid='596'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+	</div>
+<!--  End 鼻部 -->
+<!--  面部 -->
+	<div class="ppdx_con">
+		<a name='ztlm266'></a>
+		<div class="pro_tit" id="ppdx_3">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_03.png"/>
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--  面部专题 -->
+		<div class="bg11">
+			{dede:arclist typeid='597'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+<!--  End 面部 -->	
+<!--  胸部 -->
+	<div class="ppdx_con">
+		<a name='ztlm267'></a>
+		<div class="pro_tit" id="ppdx_4">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_04.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--  胸部 专题 -->	
+		<div class="bg11">
+			{dede:arclist typeid='598'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88267" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88267)"></div>
+			</div>
+			<!--  胸部更多  -->	
+			{dede:arclist typeid='598'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+<!-- End 胸部 -->
+<!-- 吸脂瘦身 -->
+	<div class="ppdx_con">
+		<a name='ztlm270'></a>
+		<div class="pro_tit" id="ppdx_5">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_06.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			{dede:arclist typeid='599'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88270" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88270)"></div>
+			</div>
+			<!-- 吸脂瘦身 更多 -->	
+			{dede:arclist typeid='599'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+<!-- End吸脂瘦身 -->
+<!-- 紧肤除皱 -->	
+	<div class="ppdx_con">
+		<a name='ztlm268'></a>
+		<div class="pro_tit" id="ppdx_6">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_08.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			{dede:arclist typeid='600'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88268" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88268)"></div>
+			</div>
+			<!-- 紧肤除皱 更多 -->	
+			{dede:arclist typeid='600'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- End 紧肤除皱 -->
+<!-- 微整形 -->	
+	<div class="ppdx_con">
+		<a name='ztlm273'></a>
+		<div class="pro_tit" id="ppdx_7">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_07.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="bg11">
+			{dede:arclist typeid='601'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88273" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88273)"></div>
+			</div>
+			<!-- 微整形 更多 -->	
+			{dede:arclist typeid='601'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- End 微整形 -->
+<!-- 皮肤美容 -->			
+	<div class="ppdx_con">
+		<a name='ztlm269'></a>
+		<div class="pro_tit" id="ppdx_8">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_05.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			{dede:arclist typeid='602'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88269" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88269)"></div>
+			</div>
+			{dede:arclist typeid='602'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+<!-- End 皮肤美容 -->	
+<!-- 纹绣美容 -->
+	<div class="ppdx_con">
+		<a name='ztlm271'></a>
+		<div class="pro_tit" id="ppdx_9">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_09.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="bg11">
+			{dede:arclist typeid='603'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- End 纹绣美容 -->
+<!-- 注射美容 -->	
+	<div class="ppdx_con">
+		<a name='ztlm272'></a>
+		<div class="pro_tit" id="ppdx_10">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_010.png"/>
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			{dede:arclist typeid='604'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+<!-- End 注射美容 -->
+<!-- 最新活动 	
+	<div class="ppdx_con">
+		<a name='ztlm274'></a>
+		<div class="pro_tit" id="ppdx_11">
+			<img width="414px" height="130px" src="{dede:global.cfg_templets_skin/}/images/project_tit_011.png"/>	
+			<div class="cta">
+				<div>
+					<span class="label">
+						<a target="_blank" href="/swt">精心呵护您的美丽</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			{dede:arclist typeid='活动'   addfields='zt_linkurl' channelid='22' flag='h,c' }
+			<div class="ctablk ma left ">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3> <i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="more trans left 88274" style="display: block; position: relative; clear: none; width: 310px; text-align: center;color: #937344;">
+				查看更多热门项目 <i class="sprite-h gtitle-deco below"></i>
+				<div onclick="Dispaly_All(88274)"></div>
+			</div>
+			{dede:arclist typeid='活动'   addfields='zt_linkurl' channelid='22' flag='s,b' }
+			<div class="ctablk ma left change_1">
+				<div class="wr">
+					<div class="container trans">
+						<a href="[field:zt_linkurl/]" target="_blank">
+							<h3>[field:title/]</h3>
+							<i class="sprite-h gtitle-deco"></i>
+							<div class="visu">
+								<img width="310px" height="214px" src="[field:picname/]" class="anim"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{/dede:arclist}
+			<div class="clear"></div>
+		</div>
+
+	</div>
+
+</div>-->
+<script type="text/javascript">
+	$(function(){
+		var win_height=$(window).height();
+		var fl_height=$('.on_float').height();
+		var fl_top=(win_height-fl_height)/2;
+		$('.on_float').css('top',fl_top);
+	})
+</script>
+<div class="clear"></div>
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+ul,li,dl,dt,dd,ol{ list-style-type:none; margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6,form,input,textarea,label,table,tr,td,p,header,article,footer,nav,section,aside,menu{margin:0; padding:0;}
+
+header,article,footer,nav,section,aside,menu{ display:block;}
+
+table{ border-collapse:collapse; border-spacing:0;}
+
+img{ border:none;}
+
+a:link,a:visited{color:#000;text-decoration:none;outline:none;}
+
+a:active,a:hover{color:#000; text-decoration:none;}
+
+body{ margin:0;padding:0; font-size:12px; font-family:"Microsoft Yahei"; line-height:22px;/* font-size:1em; line-height:1.571em;*/ min-width:320px; }
+
+.fl{ float:left;}
+
+.fr{ float:right;}
+
+.cl{ clear:both; font-size:0; line-height:0; height:0; width:100%; overflow:hidden;}
+
+.fix:after {visibility: hidden;display: block;font-size: 0;content:""; clear: both; height: 0;}
+
+.fix{*zoom:1;}
+
+.bg{ background:#F5F5F5;}
+
+/**============ Reset End ===============**/
+
+.navbar{background:#262433;}
+.navbar .ico-home,.navbar .ico-nav{float:left;width:20%;height:100px;overflow:hidden;text-indent:-9999em;background:url(../images/ico-home.png) center center no-repeat;}
+.navbar .ico-nav{float:right;background:url(../images/ico-search.png) center center no-repeat;}
+.navbar #title{float:left;width:58%;height:100px;margin:0 1%;font-size:3.142em;font-weight:normal;color:#fff;line-height:100px;text-align:center;overflow:hidden;background:url(../images/logo.png) center center no-repeat;}
+
+.search{ display:none;z-index:9999;width:93.75%;margin:30px auto;overflow:hidden;border:1px solid #bbbbbb;border-radius:34px;background:#fff;}
+.search .keywords{float:left;width:78.66%;margin:0 4%;height:71px;font:1.714em/71px Microsoft Yahei;color:#cbcaca;outline:none;border:none;}
+.search .go{float:left;width:13.34%;height:71px;border:none;background:#fff url(../images/ico-search1.png) center center no-repeat;cursor:pointer;}
+.warmp{position:relative; margin:0 auto;max-width:640px; }
+
+
+
+
+.foot{ max-width:640px;overflow:hidden; margin:0 auto; position:relative;}
+.foot img{ width:100%;}
+.foot .btn1{ display:block; width:23.4375%; height:9.9%;  position:absolute; left:48%; top:49%;}
+.foot .btn2{ display:block; width:23.4375%; height:9.9%;  position:absolute; left:73%; top:49%;}
+
+.fa {top: 0;overflow: hidden;position: fixed;width: 100%; z-index:99}
+.header{left: 0; margin: auto;overflow: hidden;width: 100%;z-index: 100;}
+
+
+
+
+
+@media screen and (max-width: 639px){
+.navbar .ico-home{background-size: 31px 21px;height: 80px;}
+.navbar .ico-nav{ background-size: 22px 27px;height: 80px;}
+.navbar #title{ background-size:210px 35px;height: 80px;}
+
+.search{margin:15px auto;border-radius:15px;}
+.search .keywords{height:35px;font:1em/35px Microsoft Yahei;}
+.search .go{height:35px;background-size:19px 19.5px;}
+.search-warmp{ font-size:1em;}
+
+}
+@media screen and (max-width: 380px){
+.navbar .ico-home{background-size: 31px 21px;height: 60px;}
+.navbar .ico-nav{ background-size: 22px 27px;height: 60px;}
+.navbar #title{ background-size:180px 30px;height: 60px;}
+}

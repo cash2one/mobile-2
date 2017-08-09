@@ -1,0 +1,12 @@
+User-agent: * 
+
+Disallow: /data/
+Disallow: /images/
+Disallow: /include/
+Disallow: /plus/
+Disallow: /special/
+Disallow: /templets/
+Disallow: /uploads/
+Disallow: /admin_A_0/
+Disallow: /*?*
+Disallow: /?*

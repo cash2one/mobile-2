@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<base target="_blank"/>
+</head>
+<body>
+<!--公用头部开始-->
+{dede:include filename="header2.htm"/}
+<!--公用头部结束-->
+
+
+<div class="tsfw_banner"><img src="/templets/dzsjyy/new/banner/{dede:field.typeid runphp='yes'}
+if(@me == 614){
+@me = 'weichuang';
+}
+if(@me == 615){
+@me = 'zhushe';
+}
+if(@me == 616){
+@me = 'pifu';
+}
+if(@me == 617){
+@me = 'zhongyi';
+}
+if(@me == 618){
+@me = 'wenxiu';
+}
+{/dede:field.typeid}.jpg" width="100%" /></div>
+
+
+<div class="n_typename">
+<div class="n_typename_z">
+
+<div class="n_typeb">科室设置<span></span></div>
+<div class="n_types"><i>{dede:field.typename/}</i>
+<div class="n_typeall"><dt>全部</dt>
+{dede:channel type='son' typeid='609'}
+<dd><a href='[field:typelink/]'>[field:typename/]</a></dd>
+{/dede:channel}
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="keshi_type">
+<ul>
+<li style="width:214px;" id="zid_614"><a href="/plus/list.php?tid=614">微创整形外科</a></li>
+<li style="width:148px;" id="zid_615"><a href="/plus/list.php?tid=615">注射科</a></li>
+<li style="width:148px;" id="zid_616"><a href="/plus/list.php?tid=616">皮肤科</a></li>
+<li style="width:148px;" id="zid_617"><a href="/plus/list.php?tid=617">中医科</a></li>
+<li style="width:148px; border:0 !important;" id="zid_618"><a href="/plus/list.php?tid=618">纹绣科</a></li>
+</ul>
+</div>
+
+
+
+<div class="keshi_list">
+<ul style="display:block !important">
+{dede:channelartlist}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+</div>
+
+<script type="text/javascript">
+$('#zid_{dede:field.typeid/}').css({"background-color":"#990066"});
+$('#zid_{dede:field.typeid/} a').css({"color":"#ffffff"});
+
+
+
+
+</script>
+
+
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->	
+
+
+
+</body>
+</html>

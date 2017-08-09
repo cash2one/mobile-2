@@ -1,0 +1,1 @@
+<li><img src="[field:doctor_yuantu/]" alt="[field:title/]" /><I>[field:title/]<br>[field:doctor_yingwen/]</I></li>

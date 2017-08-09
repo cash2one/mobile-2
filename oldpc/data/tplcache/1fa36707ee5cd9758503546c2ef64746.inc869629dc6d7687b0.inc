@@ -1,0 +1,6 @@
+<?php
+$z[0]=Array("global","(@me%2==0)? @me=\"<li>\r\n					<div class='left ic_desc'>\r\n						<div class=\"item_nav_tit\">\r\n							<h1>[field:title/]</h1>\r\n							<span></span>\r\n							<span>蝶变感受：</span>\r\n							<p>[field:description/]</p>\r\n						</div>\r\n						<a href=\"[field:arcurl/]\" target=\"_blank\" class=\"btn_box\">更多详情</a>\r\n					</div>\r\n					<div class=\"right ic_img\">\r\n						<img src=\"[field:picname/]\"  width=\"600px\" height=\"635px\"/>				\r\n					</div>\r\n					<div class=\"clear\"></div>\r\n				</li>\":@me=\"<li>\r\n					<div class=\"left ic_img\">\r\n						<img src=\"[field:picname/]\"  width=\"600px\" height=\"635px\"/>				\r\n					</div>\r\n					<div class=\"right ic_desc\">\r\n						<div class=\"item_nav_tit\">\r\n							<h1>[field:title/]</h1>\r\n							<span></span>\r\n							<span>蝶变感受：</span>\r\n							<p>\r\n								[field:description/]\r\n							</p>\r\n						</div>\r\n						<a href=\"[field:arcurl/]\" target=\"_blank\" class=\"btn_box\">更多详情</a>\r\n					</div>\r\n\r\n					<div class=\"clear\"></div>\r\n				</li>\";",0,1038);
+$z[0][4]['name']="autoindex";
+$z[0][4]['runphp']="yes";
+
+?>

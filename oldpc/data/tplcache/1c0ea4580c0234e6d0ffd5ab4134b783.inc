@@ -1,0 +1,1 @@
+{dede:arclist  addfields='zt_pic'   channelid='17'}[field:zt_pic/]

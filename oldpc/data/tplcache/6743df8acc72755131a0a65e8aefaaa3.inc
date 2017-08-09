@@ -1,0 +1,1 @@
+<h4>今日预约<span>当前预约<i>[field:c runphp='yes']$total=@me;if($total>0)@me=@me;else @me=0;[/field:c]</i>人</span></h4>

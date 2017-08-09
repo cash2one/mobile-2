@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/side_nav.css">
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.min.js"></script>
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <meta name="keywords" content="{dede:field.keywords/}" />
+    <meta name="baidu-site-verification" content="cYwltIZZMe" />
+    <title>{dede:field.seotitle/}</title>
+  </head>
+  <body>
+    {dede:include filename="head.htm"/}
+    <div class="c_wrap n_list_sec">
+    </div>
+    <!--新闻主体 xwzt-->
+    <div class="c_wrap n_xwzt">
+      <div class="c_abs_wrap clearfix">
+        <div class="n_side">
+          {dede:include filename="side_nav.htm"/}
+        </div>
+        <div class="n_xwzt_wrap">
+          <span class="n_xwzt_nav">当前位置：{dede:field name='position'/}</span>
+          <div class="n_xwzt_sec_recommend">
+            <div class="c_carousel">
+              <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank"><img src='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_carousel_01.jpg'/></a>
+              <p><a href="$(".c_carousel p a").attr("href",href);" target="_blank">零首付整形分期，美丽无需等待</a></p>
+            </div>
+            <div class="c_carousel_thumb_wrap">
+              <div class="c_carousel_thumb selected">
+                <img src='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_thumb_01.jpg' thumbimg='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_carousel_01.jpg' alt="零首付整形分期，美丽无需等待" title='零首付整形分期，美丽无需等待' _href='http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn'/>
+                <div class="mask"></div>
+              </div>
+              <div class="c_carousel_thumb">
+                <img src='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_thumb_02.jpg' thumbimg='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_carousel_02.jpg' alt='毕业季 换新颜 要美丽' title='毕业季 换新颜 要美丽' _href='http://www.dzsjyy.com/zhuanti/byj.html'/>
+                <div class="mask"></div>
+              </div>
+              <div class="c_carousel_thumb">
+                <img src='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_thumb_03.jpg' thumbimg='{dede:global.cfg_templets_skin/}/imgs/n_xwzt_carousel_03.jpg' alt='全程招募，整形模特，下一个女神就是你' title='全程招募，整形模特，下一个女神就是你' _href='http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn'/>
+                <div class="mask"></div>
+              </div>
+            </div>
+          </div>
+          <div class="n_xwzt_sec_list_wrap clearfix">
+          	{dede:channelartlist type='son'}
+            <div class="n_xwzt_sec_list">
+			  <img src="{dede:global.cfg_templets_skin/}/imgs/nav_imgs/img{dede:field.typeid /}.jpg"/>
+              <h2><a href="{dede:field name='typeurl'/}" target="_blank">{dede:field name='typename'/}</a><a href="{dede:field name='typeurl'/}" class="more" target="_blank">更多>></a></h2>
+		       <p><a href="{dede:field name='typeurl'/}" target="_blank">{dede:field.description function='cn_substr(@me,170)'/}...</a></p>
+              <p class="cute"></p>
+              <ul>
+              	{dede:arclist infolen=20 row=3}
+                <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+                {/dede:arclist}
+              </ul>
+            </div>
+            {/dede:channelartlist}
+          </div>
+        </div>
+      </div>
+    </div>
+    {dede:include filename="footer.htm"/}
+  </body>
+<!--   <script>
+  	$(function(){
+  		//轮播图特效
+  		$(".n_xwzt_thumb").click(function(){
+  			var o=$(this).find("img");
+  			var src=o.attr("thumbimg");
+  			var title=o.attr("title");
+  			var href=o.attr("_href");
+  			$(".n_xwzt_thumb.selected").removeClass("selected");
+  			$(this).addClass("selected");
+  			debugger;
+  			$(".n_xwzt_carousel img").attr("src",src);
+  			$(".n_xwzt_carousel p a").attr("href",href);
+  			$(".n_xwzt_carousel p a").html(title);
+  		});
+  	});
+  </script> -->
+</html>

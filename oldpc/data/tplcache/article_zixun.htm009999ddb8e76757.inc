@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("field","",173,192);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",193,219);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",260,289);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",329,387);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("global","",438,470);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",512,544);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",802,839);
+$z[6][4]['filename']="header.htm";
+$z[7]=Array("global","",1202,1231);
+$z[7][4]['name']="cfg_medias_dir";
+$z[8]=Array("php","\r\n\r\n\$preurl=\"{dede:prenext get='pro' runphp='yes'}preg_match_all('/(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);@me=\$strResult[1][0];\r\n{/dede:prenext}\";\r\n\r\n\$nexturl=\"{dede:prenext get='next' runphp='yes'}\r\npreg_match_all('/(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);\r\n@me=\$strResult[1][0];\r\n{/dede:prenext}\";\r\n\r\n",1279,1638);
+$z[9]=Array("prenext","preg_match_all('/<a.*?(?: |\\\\t|\\\\r|\\\\n)?href=[\\'\"]?(.+?)[\\'\"]?(?:(?: |\\\\t|\\\\r|\\\\n)+.*?)?>(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);@me=\$strResult[1][0];",1800,2019);
+$z[9][4]['get']="pro";
+$z[9][4]['runphp']="yes";
+$z[10]=Array("prenext","preg_match_all('/<a.*?(?: |\\\\t|\\\\r|\\\\n)?href=[\\'\"]?(.+?)[\\'\"]?(?:(?: |\\\\t|\\\\r|\\\\n)+.*?)?>(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);@me=\$strResult[1][0];",2082,2302);
+$z[10][4]['get']="next";
+$z[10][4]['runphp']="yes";
+$z[11]=Array("field","",2398,2417);
+$z[11][4]['name']="title";
+$z[12]=Array("type","[field:typelink /]",2503,2545);
+$z[13]=Array("global","",2607,2639);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("prenext","preg_match_all('/<a.*?(?: |\\\\t|\\\\r|\\\\n)?href=[\\'\"]?(.+?)[\\'\"]?(?:(?: |\\\\t|\\\\r|\\\\n)+.*?)?>(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);@me=\$strResult[1][0];",2779,2998);
+$z[14][4]['get']="pro";
+$z[14][4]['runphp']="yes";
+$z[15]=Array("prenext","preg_match_all('/<a.*?(?: |\\\\t|\\\\r|\\\\n)?href=[\\'\"]?(.+?)[\\'\"]?(?:(?: |\\\\t|\\\\r|\\\\n)+.*?)?>(.+?)<\\/a.*?>/sim', @me, \$strResult, PREG_PATTERN_ORDER);@me=\$strResult[1][0];",3061,3281);
+$z[15][4]['get']="next";
+$z[15][4]['runphp']="yes";
+$z[16]=Array("field","",3465,3483);
+$z[16][4]['name']="body";
+$z[17]=Array("include","",3589,3626);
+$z[17][4]['filename']="footer.htm";
+
+?>
