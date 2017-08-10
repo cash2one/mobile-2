@@ -910,3 +910,4 @@ html {overflow-y: scroll;}
 .n_zffx_bg_05 .info span{display:inline-block; font-size:16px;font-weight: 700;color:#fff;padding:10px;background-color: #67259C;text-align: center;margin-bottom: 20px;}
 .n_zffx_bg_05 .info p{font-size:20px;color: #fff;line-height: 30px;margin:10px 0px;padding-left:20px;}
 .n_zffx_bg_05 p.intro{margin:20px 0px 40px 0px;padding-left:0px;}
+.active-srx-tm{position: fixed;bottom: 10px; right: 60px;}
