@@ -208,8 +208,8 @@ $(function () {
     setTimeout(banner, 5000);
 
     $('.n_dzsj').click(function () {
-        if ($(this).hasClass('bg_3')) {
-           // window.location.href = '/zhuanti/qixi.html';
+        if ($(this).hasClass('bg_0')) {
+            window.open('/huodong/qixi.html');
         }
     });
 });
