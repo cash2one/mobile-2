@@ -32,7 +32,11 @@ if ($op == "delete") {
 	foreach ($ids as $opid) {
 		if (($opid = intval($opid)) > 0) {
 			$tmp_data = $db->query_first("select * from $table where id='$opid' limit 1");
+<<<<<<< HEAD
 			if ($db->query("delete from $table where id='$opid' limit 1")) {
+=======
+			if ($db->query("update $table set is_del = 1 where id='$opid' limit 1")) {
+>>>>>>> d0cf52f8f6c0f707e2b6788e94d88feffbb355f4
 				$del_ok++;
 				$op_data[] = $tmp_data;
 				$del_name[] = $tmp_data["name"];

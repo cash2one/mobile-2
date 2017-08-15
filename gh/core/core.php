@@ -23,6 +23,10 @@ $db = new mysql($mysql_server);
 	$db->show_error = false;
 //}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d0cf52f8f6c0f707e2b6788e94d88feffbb355f4
 // session ¥¶¿Ì:
 require ROOT."core/session.php";
 

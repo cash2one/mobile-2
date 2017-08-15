@@ -15,7 +15,11 @@ $cfgSiteURL = "javascript:void(0);"; //站点网址
 $cfgSiteMail = "admin@admin.com"; //站点联系人mail
 
 // 数据库连接参数:
+<<<<<<< HEAD
 $mysql_server = array('localhost', 'gh_dzsjmr', 'Y2w8T6E8', 'gh_dzsjmr', 'gbk');
+=======
+$mysql_server = array('localhost', 'root', 'root', 'gh', 'gbk');
+>>>>>>> d0cf52f8f6c0f707e2b6788e94d88feffbb355f4
 //$mysql_server = array('localhost', 'guahao', 'ki99dingdingss', 'guahao', 'gbk');
 
 
