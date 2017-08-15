@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit">
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style_cs_index.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/top.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--[if IE]>
+<script src="/static/js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+<!--<script src="/static/js/jquery_brand.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script type="text/javascript">
+$(function(){
+//导航高度
+	var selectorHeight = $('.nav11').height();
+	//导航距顶部的高度
+	var stickyTop = $('.nav11').offset().top;
+	//数组：内容的id 距顶部高度 内容的高度
+	var _arr_h = [];
+	for (var i = 0; i < $("#links >li").length; i++)
+	{
+		var _id =$("#links >li").eq(i).attr('class');
+//		console.log(' _id =  '+_id);
+		var _top = $("#"+_id).offset().top;
+		var _height = $("#"+_id).height();
+		_arr_h.push({"Id":_id,"Top":_top,"Height":_height});
+	};
+	
+	
+	
+	//窗口滚动
+	$(window).scroll(function() {
+		//滚动条高度
+		var scrollTop = $(window).scrollTop();
+		for (var i = 0; i < _arr_h.length; i++) {
+			var _nowId = _arr_h[i].Id;
+			var _nowTop = _arr_h[i].Top;
+			var _nowHeight = _arr_h[i].Height;
+			if(scrollTop>=(_nowTop-selectorHeight)&&scrollTop<=(_nowHeight+_nowTop)) {
+				$("#links li").removeClass('active');
+				$('#links .'+ _nowId).addClass('active');
+			}
+		};
+		if (scrollTop > stickyTop) {
+			//设置导航固定
+			$('.brand_center .nav11').css({ 'position': 'fixed', 'top':0,'margin-top':0 });
+		}
+		else {//取消导航固定
+			$('.brand_center .nav11').css({ 'position': '', 'top':'','margin-top':'' });
+			$('#links li').removeClass('active');
+		}
+	})
+	//鼠标点击导航
+	$('#links li').click(function(e){
+		//不要执行与事件关联的默认动作
+		e.preventDefault();
+		//当前点击的导航的id
+		var id = $(this).attr('class');
+//		console.log(' selectorHeight:    '+selectorHeight);
+		//当前点击导航对应的内容距顶部高度-导航高度
+		if($('div#'+ id).parents().hasClass('brand_center')){
+//			alert('has class');
+			var goTo = $('div#'+ id).offset().top -selectorHeight+1;
+		}else{
+			var goTo = $('div#'+ id).offset().top+1;
+		}
+		//console.log($(this).next().attr('class'));
+		$('#links li').removeClass('active');
+		$('#links .'+id).addClass('active');
+		//$(this).addClass('active').siblings('#links li').removeClass('active');
+		$("html, body").animate({ scrollTop: goTo }, 250);
+	})
+})
+</script>-->
+</head>
+<body>
+	
+<div class="wrap brand_center">
+<!--公用头部开始-->
+{dede:include filename="header.htm"/}
+<!--公用头部结束-->
+
+
+
+
+
+<div class="bg100 bg_yg" style="margin-top: 30px;">
+
+		<div class="bg12">
+			<div class="title"><img src="{dede:global.cfg_templets_skin/}/images/brand_video.png"/></div>
+			<script src="{dede:global.cfg_cmsurl/}/ckplayer/ckplayer_common.php?id=1" language="javascript"></script>
+{dede:include filename="plus/ckplayer.htm"/}
+
+
+
+			<div class="clear"></div>
+
+			{dede:field.body/}
+			
+			<div class="clear"></div>
+
+		</div>
+</div>
+	<!--<div class="bg11">-->
+
+	
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer(noswt).htm"/}
+<!--公用尾部结束-->
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/side_nav.css">
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.min.js"></script>
+    <meta name="keywords" content="{dede:field.keywords/}" />
+    <meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <meta name="baidu-site-verification" content="cYwltIZZMe" />
+    <title>{dede:field.seotitle/}</title>
+  </head>
+  <body>
+    {dede:include filename="head.htm"/}
+    <div class="c_wrap n_dzsj_01">
+    </div>
+    <!--新闻主体 xwzt-->
+    <div class="c_wrap n_xwzt">
+      <div class="c_abs_wrap clearfix">
+        <div class="n_side">
+          {dede:include filename="side_nav.htm"/}
+        </div>
+        <div class="n_xwzt_wrap">
+          <span class="n_xwzt_nav">当前位置：{dede:field name='position'/}</span>
+          <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank"><img src="{dede:global.cfg_templets_skin/}/imgs/n_xwzt_01.jpg" class="n_xwzt_ad"/></a>
+          <div class="n_xwzt_article">
+            <h2>{dede:field.title/}</h2>
+            <div class="n_xwzt_info">
+              <span>时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</span>
+              <span>阅读：(<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>)</span>
+              <span>编辑：{dede:field.writer/}</span>
+            </div>
+            <div class="n_xwzt_content">{dede:field.body/}</div>
+            <p class="n_xwzt_msg">
+              <strong>温馨提示：</strong>如有疑问，可免费资讯在线医生，或拨打本院美丽热线：0818-3745555，我们会从专业的角度认真解答您的疑问，此外，您也可以到我们一楼大厅咨询相关问题，我们的服务人员将热情的为您服务!声明：本站部分整形美容信息来自网络，仅供参考，不能作为整形美容诊断及医疗依据。如您转载或引用本文，请标注转自：<a href="http://{dede:global.cfg_basehost/}{dede:field name='arcurl'/}">http://{dede:global.cfg_basehost/}{dede:field name='arcurl'/}</a>
+            </p>
+          </div>
+          <div class="n_article_btn">
+              <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank"><img src="{dede:global.cfg_templets_skin/}/imgs/n_article_btn_01.jpg"/></a>
+              <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank"><img src="{dede:global.cfg_templets_skin/}/imgs/n_article_btn_02.jpg"/></a>
+              <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank"><img src="{dede:global.cfg_templets_skin/}/imgs/n_article_btn_03.jpg"/></a>
+          </div>
+          <div class="n_like_article">
+              <h3>相关文章推荐</h3>
+              <ul class="n_like_article_list clearfix">
+                {dede:likearticle row='6'  titlelen='60'}
+                <li><a href='[field:arcurl/]' target="_blank">[field:title/]</a></li>
+                {/dede:likearticle}
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    {dede:include filename="footer.htm"/}
+  </body>
+</html>

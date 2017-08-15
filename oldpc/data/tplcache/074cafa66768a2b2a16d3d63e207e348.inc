@@ -1,0 +1,1 @@
+<a href='javascript:void(0)' id='{dede:field.id/}'  {dede:field name='typename' runphp='yes'}if(@me =='双均动态') @me="class='selected'";else @me = "";{/dede:field}>{dede:field.typename/}</a>

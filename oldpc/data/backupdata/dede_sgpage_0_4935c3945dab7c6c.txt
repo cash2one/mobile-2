@@ -1,0 +1,1 @@
+INSERT INTO `dede_sgpage` VALUES('1','品牌起源','0','html/about.html','pingpaiqiyuan','{style}/singlepage.htm','default','双均品牌起源，达州双均整形美容','1462262692','');

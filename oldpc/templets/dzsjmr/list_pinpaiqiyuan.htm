@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit">
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style_cs_index.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/top.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--[if IE]>
+<script src="/static/js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+<!--<script src="/static/js/jquery_brand.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script type="text/javascript">
+$(function(){
+//导航高度
+	var selectorHeight = $('.nav11').height();
+	//导航距顶部的高度
+	var stickyTop = $('.nav11').offset().top;
+	//数组：内容的id 距顶部高度 内容的高度
+	var _arr_h = [];
+	for (var i = 0; i < $("#links >li").length; i++)
+	{
+		var _id =$("#links >li").eq(i).attr('class');
+//		console.log(' _id =  '+_id);
+		var _top = $("#"+_id).offset().top;
+		var _height = $("#"+_id).height();
+		_arr_h.push({"Id":_id,"Top":_top,"Height":_height});
+	};
+	
+	
+	
+	//窗口滚动
+	$(window).scroll(function() {
+		//滚动条高度
+		var scrollTop = $(window).scrollTop();
+		for (var i = 0; i < _arr_h.length; i++) {
+			var _nowId = _arr_h[i].Id;
+			var _nowTop = _arr_h[i].Top;
+			var _nowHeight = _arr_h[i].Height;
+			if(scrollTop>=(_nowTop-selectorHeight)&&scrollTop<=(_nowHeight+_nowTop)) {
+				$("#links li").removeClass('active');
+				$('#links .'+ _nowId).addClass('active');
+			}
+		};
+		if (scrollTop > stickyTop) {
+			//设置导航固定
+			$('.brand_center .nav11').css({ 'position': 'fixed', 'top':0,'margin-top':0 });
+		}
+		else {//取消导航固定
+			$('.brand_center .nav11').css({ 'position': '', 'top':'','margin-top':'' });
+			$('#links li').removeClass('active');
+		}
+	})
+	//鼠标点击导航
+	$('#links li').click(function(e){
+		//不要执行与事件关联的默认动作
+		e.preventDefault();
+		//当前点击的导航的id
+		var id = $(this).attr('class');
+//		console.log(' selectorHeight:    '+selectorHeight);
+		//当前点击导航对应的内容距顶部高度-导航高度
+		if($('div#'+ id).parents().hasClass('brand_center')){
+//			alert('has class');
+			var goTo = $('div#'+ id).offset().top -selectorHeight+1;
+		}else{
+			var goTo = $('div#'+ id).offset().top+1;
+		}
+		//console.log($(this).next().attr('class'));
+		$('#links li').removeClass('active');
+		$('#links .'+id).addClass('active');
+		//$(this).addClass('active').siblings('#links li').removeClass('active');
+		$("html, body").animate({ scrollTop: goTo }, 250);
+	})
+})
+</script>-->
+</head>
+<body>
+	
+<div class="wrap brand_center">
+<!--公用头部开始-->
+{dede:include filename="header.htm"/}
+<!--公用头部结束-->
+
+
+
+<!-- <div class="bg100 brand_index"><img src="{dede:global.cfg_templets_skin/}/images/brand_index.jpg"/></div> -->
+
+<div class="bg100 bg_yg">
+	<div id="y_come">
+		<div class="bg12">
+			<div class="title"><img src="{dede:global.cfg_templets_skin/}/images/brand_tit2.png"/></div>
+			<div class="yc_word ">
+				<p class="word_ch"><span>双均品牌使命：</span></p>
+				四川双均美容有限公司：为广大爱美人士提供全方位的医学美容服务，凭借求真务实的技术风格，以人为本的服务理念，将东方特色的审美观点和国际医疗美容技术融合，根据爱美者的职业特点、个性需求等充分考虑。真正打造个性美丽，双均带来的不仅仅是医疗美容服务，更是一份积极美丽的生活态度，一个姹紫嫣红的花样年华！</p>
+				<p>&nbsp;</p>
+
+				<p class="word_ch"><span>双均理念：</span></p>
+				<p class="word_en">以“责任铸就美丽，专业成就未来”作为品牌的发展方向，以向社会奉献“传播健康、经营美丽”作为品牌的崇高使命，长期坚持“人文、关爱”的公益倡导，以“品质至上，诚信经营”的积极理念为品牌灵魂。</p>
+				<p>&nbsp;</p>
+				
+				<p class="word_ch"><span>双均整形，重塑人生</span></p>
+				<p class="word_en">双均医疗美容，集医学整形、美容、抗衰、中医养生、芳香SPA水疗为一体的综合性医疗及美容会所，品质一流，服务一流、不仅吸引着消费者越来越多的信赖目光，更成为众多爱美者、求美者的美丽殿堂。</p>
+				
+				
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--<div class="bg11">-->
+	<div id="y_honor" class="bg12">
+			<div class="title"><img src="{dede:global.cfg_templets_skin/}/images/brand_tit6.png"/></div>
+			<div class="honor_list">
+				<img src="{dede:global.cfg_templets_skin/}/images/brand_part6_img_01.jpg"/>
+			</div>
+		</div>
+	
+
+	
+
+</div>
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->
+</div>
+</body>
+</html>

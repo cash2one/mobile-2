@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<base target="_blank"/>
+</head>
+<body>
+<!--公用头部开始-->
+{dede:include filename="header2.htm"/}
+<!--公用头部结束-->
+
+
+
+<div class="tsfw_banner"><img src="/templets/dzsjyy/new/banner/{dede:field.typeid runphp='yes'}
+   global $dsql ;
+   $reid = $dsql->GetOne("SELECT reid FROM dede_arctype where id = @me");
+   @me = $reid['reid'];
+if(@me == 614){
+@me = 'weichuang';
+}
+if(@me == 615){
+@me = 'zhushe';
+}
+if(@me == 616){
+@me = 'pifu';
+}
+if(@me == 617){
+@me = 'zhongyi';
+}
+if(@me == 618){
+@me = 'wenxiu';
+}
+{/dede:field.typeid}.jpg" width="100%" /></div>
+
+
+<style type="text/css">
+.n_typename{width:100%; height:45px; background-color:#f6f6f6; border-bottom:1px solid #b1b1b1; padding-top:15px; font-family:'微软雅黑';}
+.n_typename_z{width:1050px; margin:0 auto; padding-left:50px; font-size:30px; color:#8e0371; height:40px; line-height:40px;}
+.n_typename_z span{color:#b1b1b1; font-size:20px; padding-left:17px; padding-bottom:10px}
+.n_artbox{width:1100px; margin:40px auto; font-family:'微软雅黑';}
+.n_artbox .leftbox{width:740px; float:left;}
+.n_artbox .rightbox{width:280px; float:right;}
+.n_artbox .leftbox .arttitle{border-bottom:1px solid #c7c7c7; padding-bottom:20px; padding-top:25px; text-align:center; color:#666464; font-size:24px;}
+.n_artbox .leftbox .artico{color:#666464; font-size:15px; margin:20px auto; width:400px;}
+.n_artbox .leftbox .artico .artico_ico{padding-left:33px; height:21px; line-height:21px; float:left; position:relative; padding-right:20px; margin-left:17px; display:inline;}
+.n_artbox .leftbox .artico .artico_ico img{position:absolute; left:0;}
+.n_artbox .leftbox .n_art_box{padding:40px 0; border-bottom:1px solid #747272;}
+.n_artbox .leftbox .linkpage{color:#747272; font-size:18px; padding:15px 0 0 50px;}
+.n_artbox .leftbox .linkpage a{color:#747272;}
+.n_arttj{margin-top:25px; font-size:16px;}
+.n_arttj span{color:#666666; font-weight:bold;}
+.n_arttj ul{padding-left:50px;}
+.n_arttj ul li{height:22px; line-height:22px;}
+.n_arttj ul li a{color:#666666}
+.rightbox .right_title{height:56px; line-height:56px; text-align:center; font-size:20px; color:#666666; background-color:#dadada}
+.rightbox .right_list{background-color:#f1f1f1; padding-left:20px; padding-bottom:40px;}
+.rightbox .right_list dt{font-size:18px; clear:both; padding-top:27px; padding-bottom:10px;}
+.rightbox .right_list dt a{color:#666666; font-weight:bold}
+.rightbox .right_list dd{float:left; width:130px; padding:3px 0;}
+.rightbox .right_list dd a{font-size:14px; color:#999999;}
+</style>
+
+
+
+<div class="n_typename">
+<div class="n_typename_z">
+
+<div class="n_typeb">科室设置<span></span></div>
+<div class="n_types"><i>{dede:field.typename/}</i>
+<div class="n_typeall"><dt>全部</dt>
+{dede:channel type='son' typeid='609'}
+<dd><a href='[field:typelink/]'>[field:typename/]</a></dd>
+{/dede:channel}
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="n_artbox">
+
+<div class="leftbox">
+<div class="arttitle">{dede:field.title/}</div>
+<div class="artico">
+<div class="artico_ico" style="border-right:1px solid #747272"><img src="/templets/dzsjyy/new/shizhong.png">{dede:field.pubdate function="MyDate('Y-m-d',@me)"/}</div>
+<div class="artico_ico" style="border-right:1px solid #747272"><img src="/templets/dzsjyy/new/yanjing.png">阅读 <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script></div>
+<div class="artico_ico"><img src="/templets/dzsjyy/new/jiantou.png">分享</div>
+</div>
+<div class="n_art_box">{dede:field.body/}</div>
+<div class="linkpage">{dede:prenext get='pre'/}</div>
+<div class="linkpage">{dede:prenext get='next'/}</div>
+<div class="n_arttj">
+<span>相关推荐</span>
+<ul>
+{dede:arclist row='5' orderby='rand'}
+<li><a href='[field:arcurl/]' target="_blank">[field:title/]</a></li>
+{/dede:arclist}
+</ul>
+</div>
+</div>
+
+<div class="rightbox">
+<div class="right_title">快 速 导 航</div>
+<div class="right_list">
+<ul>
+{dede:channelartlist typeid='614'}
+<li>
+<dt><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></dt>
+{dede:arclist titlelen='21' row='10'}
+<dd><a href="[field:arcurl /]">[field:title /]</a></dd>
+{/dede:arclist}
+<div style="clear:both;"></div>
+</li>
+{/dede:channelartlist}
+</ul>
+</div>
+</div>
+
+<div style="clear:both;"></div>
+</div>
+
+
+
+
+
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->	
+
+
+
+</body>
+</html>

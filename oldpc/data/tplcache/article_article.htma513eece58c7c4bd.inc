@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("field","",254,273);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",274,300);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("include","",379,417);
+$z[2][4]['filename']="header2.htm";
+$z[3]=Array("field","\r\n   global \$dsql ;\r\n   \$reid = \$dsql->GetOne(\"SELECT reid FROM dede_arctype where id = @me\");\r\n   @me = \$reid['reid'];\r\nif(@me == 614){\r\n@me = 'weichuang';\r\n}\r\nif(@me == 615){\r\n@me = 'zhushe';\r\n}\r\nif(@me == 616){\r\n@me = 'pifu';\r\n}\r\nif(@me == 617){\r\n@me = 'zhongyi';\r\n}\r\nif(@me == 618){\r\n@me = 'wenxiu';\r\n}\r\n",515,875);
+$z[3][4]['name']="typeid";
+$z[3][4]['runphp']="yes";
+$z[4]=Array("field","",3026,3048);
+$z[4][4]['name']="typename";
+$z[5]=Array("channel","\r\n<dd><a href='[field:typelink/]'>[field:typename/]</a></dd>\r\n",3094,3209);
+$z[5][4]['type']="son";
+$z[5][4]['typeid']="609";
+$z[6]=Array("field","",3320,3339);
+$z[6][4]['name']="title";
+$z[7]=Array("field","",3477,3529);
+$z[7][4]['name']="pubdate";
+$z[7][4]['function']="MyDate('Y-m-d',@me)";
+$z[8]=Array("field","",3664,3691);
+$z[8][4]['name']="phpurl";
+$z[9]=Array("field","",3715,3738);
+$z[9][4]['name']="id";
+$z[10]=Array("field","",3743,3767);
+$z[10][4]['name']="mid";
+$z[11]=Array("field","",3944,3962);
+$z[11][4]['name']="body";
+$z[12]=Array("prenext","",3992,4017);
+$z[12][4]['get']="pre";
+$z[13]=Array("prenext","",4047,4073);
+$z[13][4]['get']="next";
+$z[14]=Array("arclist","\r\n<li><a href='[field:arcurl/]' target=\"_blank\">[field:title/]</a></li>\r\n",4137,4262);
+$z[14][4]['row']="5";
+$z[14][4]['orderby']="rand";
+$z[15]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='21' row='10'}\r\n<dd><a href=\"[field:arcurl /]\">[field:title /]</a></dd>\r\n{/dede:arclist}\r\n<div style=\"clear:both;\"></div>\r\n</li>\r\n",4393,4693);
+$z[15][4]['typeid']="614";
+$z[16]=Array("include","",4802,4839);
+$z[16][4]['filename']="footer.htm";
+
+?>

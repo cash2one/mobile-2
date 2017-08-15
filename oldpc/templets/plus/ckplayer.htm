@@ -1,0 +1,100 @@
+﻿<script type="text/javascript" src="{dede:global.cfg_cmsurl/}/ckplayer/offlights.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_cmsurl/}/ckplayer/ckplayer.js"></script>
+<script type="text/javascript">
+var videobox = '<div style="width:'+ckdata['dwidth']+'px; height:'+ckdata['dheight']+'px;margin:5px auto;clear:both;">'
+videobox += '<div id="a1" style="position:absolute;z-index:100;"></div>'
+videobox += '</div>'
+</script>
+{dede:field.video_address runphp='yes'}  if(@me == ''){@me = ''; } else{  @me = '<script type="text/javascript">document.write(videobox)</script>'; }
+{/dede:field.video_address}
+<script type="text/javascript">
+	function Extension(str){//判断开始
+        var ext='';
+        if(str){
+                var file=str.toLowerCase();        
+                var filearr=file.split('.');
+                var exten=filearr[filearr.length-1];
+                if(exten=='flv' || exten=='f4v' || exten=='mp4' || exten=='rmov'){
+					ext='video';//普通视频
+                }
+				else if(exten=='m3u8'){
+					ext='m3u8';//m3u8
+                }
+        }
+        return ext;
+	}
+	var _f='';//定义调用视频的f值
+	var _a='';//同上，定义a值
+	var _s=0;//同上，定义s值
+	var _flv='{dede:field name="video_address"/}'
+	if(Extension(_flv)=="video"){//如果是普通视频
+        _f=_flv;
+        _s=0;
+	}
+	else if(Extension(_flv)=="m3u8"){//如果是m3u8
+		_f='{dede:global.cfg_cmsurl/}/ckplayer/m3u8.swf';
+		_a=_flv;
+        _s=4;
+	}
+	else{//如果都不是的话就使用另一种调用方式
+        _f='{dede:global.cfg_cmsurl/}/ckplayer/video.php?url=[$pat]';
+        _a='{dede:field name="video_address"/}';
+        _s=2;
+	}//判断结束，下面是调用视频，全部由上面的变量传值
+	var newcpt_share='{dede:global.cfg_cmsurl/}/ckplayer/ckplayer_share.php';
+	var newcontrol_rel='related.swf,{dede:global.cfg_cmsurl/}/ckplayer/ckplayer_related.php,1';
+	var flashvars={
+		f:_f,
+		a:_a,
+		s:_s,
+		c:'0',x:'',
+		l:ckdata['adpre'],
+		r:ckdata['adpreurl'],
+		t:ckdata['adpretime'],
+		d:ckdata['adpau'],
+		u:ckdata['adpauurl'],
+		e:ckdata['endmotion'],
+		p:ckdata['autoplay'],
+		v:ckdata['volume'],
+		k:'{dede:field name="keytime"/}',
+		n:'{dede:field name="keyword"/}',
+		lv:'0',
+		my_title:'{dede:field.title/}',
+		my_pic:'{dede:field.litpic/}',
+		my_url:encodeURIComponent(window.location.href)
+		};
+
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};
+	var video=['{dede:field name="html5_address"/}->video/mp4','{dede:field name="html5_address"/}->video/webm','{dede:field name="html5_address"/}->video/ogg'];
+	var support=['iPad','iPhone','ios','android+false','msie10+false'];//默认的在ipad,iphone,ios设备中用html5播放,android,ie10上没有安装flash的也调用html5
+	CKobject.embedHTML5('a1','ckplayer_a1',ckdata['dwidth'],ckdata['dheight'],video,flashvars,support);
+	CKobject.embed('{dede:global.cfg_cmsurl/}/ckplayer/ckplayer.swf','a1','ckplayer_a1',ckdata['dwidth'],ckdata['dheight'],false,flashvars,video,params);
+
+	function getstart(){
+		var a=CKobject.getObjectById('ckplayer_a1').getStatus();
+		var ss='';
+		for (var k in a){
+			ss+=k+":"+a[k]+'\n';
+		}
+		alert(ss);
+	}
+	function ckadjump(){
+		alert('会员等级不够，请登录或提升会员等级后使用跳过广告按钮！');
+	}
+	//开关灯
+	var box = new LightBox();
+	function closelights(){//关灯
+		box.Show();
+		CKobject._K_('a1').style.width=ckdata['cwidth']+'px';
+		CKobject._K_('a1').style.height=ckdata['cheight']+'px';
+		CKobject.getObjectById('ckplayer_a1').width=ckdata['cwidth'];
+		CKobject.getObjectById('ckplayer_a1').height=ckdata['cheight'];
+	}
+	function openlights(){//开灯
+		box.Close();
+		CKobject._K_('a1').style.width=ckdata['dwidth']+'px';
+		CKobject._K_('a1').style.height=ckdata['dheight']+'px';
+		CKobject.getObjectById('ckplayer_a1').width=ckdata['dwidth'];
+		CKobject.getObjectById('ckplayer_a1').height=ckdata['dheight'];
+	}
+  </script>

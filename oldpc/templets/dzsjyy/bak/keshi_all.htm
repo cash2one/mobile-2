@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<base target="_blank"/>
+</head>
+<body>
+<!--公用头部开始-->
+{dede:include filename="header2.htm"/}
+<!--公用头部结束-->
+
+
+
+
+
+<div class="n_typename">
+<div class="n_typename_z">
+
+<div class="n_typeb">科室设置<span></span></div>
+<div class="n_types"><i>{dede:field.typename/}</i>
+<div class="n_typeall"><dt>全部</dt>
+{dede:channel type='son' typeid='609'}
+<dd><a href='[field:typelink/]'>[field:typename/]</a></dd>
+{/dede:channel}
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="keshi_type">
+<ul>
+<li style="width:214px;">微创整形外科</li>
+<li style="width:148px;">注射科</li>
+<li style="width:148px;">皮肤科</li>
+<li style="width:148px;">中医科</li>
+<li style="width:148px; border:0 !important;">纹绣科</li>
+</ul>
+</div>
+
+
+
+<div class="keshi_list">
+<ul>
+{dede:channelartlist typeid='614'}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+
+<ul>
+{dede:channelartlist typeid='615'}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+
+<ul>
+{dede:channelartlist typeid='616'}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+
+<ul>
+{dede:channelartlist typeid='617'}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+
+<ul>
+{dede:channelartlist typeid='618'}
+<li>
+<div class="keshi_list_pic"><img src="/templets/dzsjyy/new/keshipic/{dede:field name='typeid'/}.jpg"></div>
+<div class="keshi_tit">{dede:field name='typename'/}<a href="{dede:field name='typeurl'/}">了解更多</a></div>
+<div class="keshi_art">{dede:arclist titlelen='18'}<dd><a href="[field:arcurl /]">[field:title /]</a></dd>{/dede:arclist}</div>
+</li>
+{/dede:channelartlist}
+<div style="clear:both"></div>
+</ul>
+</div>
+
+<script type="text/javascript">
+$('.keshi_type ul li').eq(0).css({"color":"#ffffff","background-color":"#990066"});
+$('.keshi_list ul').eq(0).show();
+
+
+$('.keshi_type ul li').click(function(){
+$('.keshi_type ul li').css({"color":"#8e0371","background-color":""});
+$(this).css({"color":"#ffffff","background-color":"#990066"});
+$('.keshi_list ul').hide();
+$('.keshi_list ul').eq($('.keshi_type ul li').index(this)).show();
+
+	});
+</script>
+
+
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->	
+
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+INSERT INTO `dede_taglist` VALUES('1','25','0','21','xx');

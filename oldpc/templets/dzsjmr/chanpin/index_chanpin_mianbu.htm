@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit">
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style_cs_index.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/top.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<base target="_blank">
+</head>
+<body>
+<div class="wrap">
+<!--公用头部开始-->
+{dede:include filename="header.htm"/}
+<!--公用头部结束-->
+
+
+
+<div class="banner_slider"><img src="{dede:global.cfg_templets_skin/}/images/item_img_banner.jpg"/></div>
+<div class="programa">
+	<div class="bg11">
+	<div class="recommend_list single-item left">
+	
+		
+		
+ <!-- Begin 封面页 图片轮播 -->
+
+{dede:arclist typeid='597' addfields='zt_linkurl' channelid='22' flag='h,c'  imgwidth='501' imgheight='321' } 
+    <div class="recommend_desc size4 con_slider">
+			<a href="[field:zt_linkurl/]">
+				<img src='[field:picname/]' width="501px" height="320px"/>
+				<p><span>[field:title/]</span><b>[field:shorttitle/]</b></p>
+				<div class="cta">
+					<div><span class="label">探索</span></div>
+				</div>
+			</a>
+		</div>   
+{/dede:arclist}
+
+ <!-- End 封面页 图片轮播 -->
+
+
+		
+	</div>
+    
+    
+ 
+
+
+
+<!-- Begin栏目循环 -->
+
+ {dede:channelartlist}    
+    <div class="size1 ctablk left ">
+		<div class="wr">
+			<div class="container trans">
+				<a href="{dede:field name='typeurl'/}">
+					<i class="sprite-h gtitle-deco"></i>
+					<div class="s_desc">
+						<h2>{dede:field name='typename'/}</h2>
+						
+					</div>
+					<div class="cta">
+						<div><span class="label">探索</span></div>
+					</div>
+					<div class="visu"> <img src="{dede:field.typeimg /}" width="211px" height="253px" class="anim"> </div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+{/dede:channelartlist} 
+	
+<!-- End 栏目循环 -->
+
+
+
+	<div class="clear"></div>
+	</div>
+</div>
+<!--
+<div class="programa_footer">
+	<ul>
+		<li>
+			<a href="/zt/">
+				<span>纯韩连锁技术的非凡之作</span>
+				<img src="{dede:global.cfg_templets_skin/}/images/programa_footer_img_01.jpg"/>
+			</a>
+		</li>
+		<li>
+			<a href="/zj/">
+				<span>韩国专家与国内菁英专家</span>
+				<img src="{dede:global.cfg_templets_skin/}/images/programa_footer_img_02.jpg"/>
+			</a>
+		</li>
+		<li>
+			<a href="/swt">
+				<span>承担教育重任的专家微课堂</span>
+				<img src="{dede:global.cfg_templets_skin/}/images/programa_footer_img_03.jpg"/>
+			</a>
+		</li>
+	</ul>
+</div>
+-->
+<script type="text/javascript">
+	$(function() {
+		$('.single-item').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			autoplay: true,
+			arrows: true,
+			slide: '.con_slider',
+			pauseOnHover: false,
+			autoplaySpeed: 3000,
+			draggable: false
+		});
+		$('.banner_slider .menu menu .nav_thumb').on('click', function() {
+			var index = $(this).index();
+			$(this).addClass('active').siblings('.banner_slider .menu menu .nav_thumb').removeClass('active');
+			$('.banner_slider').slickGoTo(index);
+		});
+		
+		$('.programa_footer ul li').mouseover(function(){
+			$('.programa_footer ul li').stop(true);
+			$(this).animate({'opacity':'1'},500).siblings('.programa_footer ul li').animate({'opacity':'0.5'},500);
+		}).mouseleave(function(){
+			$('.programa_footer ul li').animate({'opacity':'1'},500);
+		})
+	})
+</script>
+<div class="clear"></div>
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"/}
+<!--公用尾部结束-->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<li class="con_slider1">
+					<a href="[field:arcurl/]" target="_blank">
+						<img src="[dede:field name='doctor_img' /]"/>			
+					</a>
+				</li>
+
+{/dede:list}
+
+
+
+
+
+
+				<!--
+
+				<li class="con_slider1">
+					<a href="/zj/hgzjxz//687.html" target="_blank">
+						<img src="images/1-16042GA236441.jpg"/>			
+					</a>
+				</li>
+
+				<li class="con_slider1">
+					<a href="/zj/hgzjxz//686.html" target="_blank">
+						<img src="images/1-16032Q54230c5.jpg"/>			
+					</a>
+				</li>
+
+				<li class="con_slider1">
+					<a href="/zj/hgzjxz//729.html" target="_blank">
+						<img src="images/1-16042GA132310.jpg"/>			
+					</a>
+				</li>
+
+				<li class="con_slider1">
+					<a href="/zj/hgzjxz//724.html" target="_blank">
+						<img src="images/1-16042GA153236.jpg"/>			
+					</a>
+				</li>
+-->
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- End 人物 轮播 -->
+
+
+<!--
+<div class="item_tit" id="krzj">
+	<div class="georgia-title">
+		<i class="sprite-h gtitle-deco above"></i>
+		<h2>韩国专家</h2>
+		<i class="sprite-h gtitle-deco below"></i>
+	</div>
+</div>
+-->
+<!--
+<div class="item_con">
+	<ul class="item_con_list bg11">
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01J35J53.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>郑皓均</h1>
+					<p>艺星整形美容特聘韩国专家 首尔大学医科大学毕业 首尔峨山医院实习 首尔峨山医院整形外科医资格证 蔚山大学校医科大学硕士 韩国昌东医院整形外科科长 亚太整形外科学会正式</p>
+				</div>
+				<a href="/zj/hgzj/39.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>	
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>金钟求</h1>
+					<p>金钟求(韩国) Yestar艺星医疗美容集团韩方院长 韩国精雕整形大师 最受明星信赖的脂肪移植专家 韩国大型电视整形秀栏目《美女诞生》特约首席专家 医生介绍 学习工作经历 早年深造于</p>
+				</div>
+				<a href="/zj/hgzj/86.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01I141H6.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01HSA58.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>闵庆植</h1>
+					<p>韩国总统府首席美容顾问 韩国首位受政要级信息隐私保护的美容专家 韩国翰林大学终身荣誉教授 韩国小姐终身荣誉评审长 韩国《LET美人》整形真人秀节目特邀专家 大韩皮肤医师会法</p>
+				</div>
+				<a href="/zj/hgzj/115.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>李相旻</h1>
+					<p>Yestar艺星医疗美容医院技术指导顾问 韩国全面部私人订制专家 大韩整形外科学会正式会员 美容整形外科学会正式会员 大韩颌面部学会正式会员 大韩乳房整形学会正式会员 李相旻</p>
+				</div>
+				<a href="/zj/hgzj/180.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01GI2954.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01I940518.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>辛定基</h1>
+					<p>韩国演艺协会特邀口腔美容顾问 美国牙科协会(ADA)会员 国际口腔正畸联盟会员 美国最大隐形矫治Align首席顾问 美国执业医师 韩国执业医师 诊疗项目：正畸矫正 口腔美容修复 种植牙</p>
+				</div>
+				<a href="/zj/hgzj/71.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>李真奎</h1>
+					<p>李真奎 艺星国际专家团 整形外科专家 ABLE整形外科医院院长 历任韩国东洋整形外科医院院长 美国夏威夷 Dr.Flowers clinc 访问学者 韩国模特、艺人才艺大奖赛评审委员 韩国整形外科协会</p>
+				</div>
+				<a href="/zj/hgzj/83.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01I445129.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01G55c16.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>慎英善</h1>
+					<p>Yestar艺星美容医院皮肤科主任 韩国医疗株式会社签约专家 英国皇家抗衰老协会会员 美国皮肤科学会(AAD)正式会员 美国皮肤激光科学会(ASLMS)正式会员 慎英善，韩国医疗株式会社签约专</p>
+				</div>
+				<a href="/zj/hgzj/181.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>南相宰</h1>
+					<p>Yesta艺星整形美容特聘韩国专家 整形外科专门医师 整形外科医学博士 S-line整形外科院长 首尔峨山医院住院医师及专门医生 英東医院整形外科科长 ENJELIM整形外科院长 大韩整形外科学</p>
+				</div>
+				<a href="/zj/hgzj/42.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01J139632.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01I21GA.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>金恩秀</h1>
+					<p>Yestar艺星医疗美容集团纹绣技术总监 法国 Michel Dumas化妆，扮装 学校结业 德国Gloden-Eye Semi Permanent M/U会员 德国 Long-Time-Liner Linergist美容正式会员 德國 LTL Elite Linergist特殊医疗正式会员</p>
+				</div>
+				<a href="/zj/hgzj/85.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>全熙大</h1>
+					<p>全熙大 教授 艺星微整形中心院长 高丽大学医院 皮肤科外聘教授 Best stem oell研究会理事 PRP PRP 研究会 敎育理事 APAS(美容整形学会)理事 世界非整形术(MIPS)的学会会员 擅长项目： 五</p>
+				</div>
+				<a href="/zj/hgzj/43.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01J0554I.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01I530116.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>全满庆</h1>
+					<p>全满庆(韩国) 전만경(한국) 艺星国际专家团 整形外科专家 韩国翰林大学医学系硕士毕业 现任韩国BK整形医院院长 曾任韩国汉江诚信医院整形外科医师 韩国翰林大学诚信医院专业医师</p>
+				</div>
+				<a href="/zj/hgzj/80.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>文周芃</h1>
+					<p>文周芃(韩国) 艺星国际专家团 整形外科专家 韩国I AM整形医院院长 曾任韩国纽莱茵整容医院院长 韩国第一医院整容外科科长 大韩整容外科学会正式会员 大韩美容整容外科学会正式会员</p>
+				</div>
+				<a href="/zj/hgzj/78.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01I60HE.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01I6323J.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>朴正馨</h1>
+					<p>朴正馨 (韩国) 艺星国际专家团 整形外科专家 Yestar艺星医疗美容医院 韩方院长毕业于首尔医科大学 历任圣彼得医院整形外科科长 首尔整容外科医院院长</p>
+				</div>
+				<a href="/zj/hgzj/74.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>李键昊</h1>
+					<p>Yestar艺星整形美容特聘韩国专家 韩国首尔峨山医院蔚山大学外聘教授 釜山大学医大外聘教授 蔚山大学医院整形外科科长 大韩整形外科学会正式会员 大韩肥胖学会正式会员 大韩静脉学</p>
+				</div>
+				<a href="/zj/hgzj/40.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01J30B95.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01J219355.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>李春新</h1>
+					<p>大韩整形外科联合会终身会员 亚太整形外科学会正式会员 国际整形外科学会(IPPAS)正式会员 韩国Banolym整形外科院长 历任ENJELIM整形外科院长 大韩红十字协会红十字医院科长 大韩整形外</p>
+				</div>
+				<a href="/zj/hgzj/41.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+
+		<li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>金相泰</h1>
+					<p>Yestar艺星整形美容特聘韩国专家 首尔医科大学及大学院毕业 首尔牙山医院整形外科专门医师 蔚山大学医院整形外科科长 首尔整形外科院长 现任首尔牙山医院整形外科教授 现任DREAM整</p>
+				</div>
+				<a href="/zj/hgzj/45.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01J016400.jpg"/></div>
+			<div class="clear"></div>
+		</li>
+	</ul>
+</div>
+-->
+
+
+<div class="item_tit" id="chzj">
+	<div class="georgia-title">
+		<i class="sprite-h gtitle-deco above"></i>
+		<h2>中国专家</h2>
+		<i class="sprite-h gtitle-deco below"></i>
+	</div>
+</div>
+<div class="item_con">
+	<ul class="item_con_list bg11">
+		<li>
+			<div class="left ic_img"><img src="images/1-150R01G94B60.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>谭进</h1>
+					<p>谭进教授-新麦格假体湖南唯一受证医师 从事医学美容行业十余年，曾留学韩国研习纯韩精微整形技术，随后在美国宾夕法尼亚大学整形外科进修，并成功完成手术近万例。91年受邀加入</p>
+				</div>
+				<a href="/zj/zgzj/163.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li><li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>宋东明</h1>
+					<p>上海艺星整形美容医院副院长 中华医学会整形外科分会委员 国际整形再造及美容学会 国内安全乳房整形记录保持者 佩戴式皮肤外扩展器国家专利发明人 鼻假体置入器国家专利发明人</p>
+				</div>
+				<a href="/zj/zgzj/72.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01IUX46.jpg"/></div>
+			<div class="clear"></div>
+		</li><li>
+			<div class="left ic_img"><img src="images/1-150R01I40a37.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>钟冠鸿</h1>
+					<p>钟冠鸿 (中国) 종관홍 (중국) 杭州艺星医疗美容医院 中方院长 毕业于浙江大学医学院 中华医学会整形外科分会面部年轻化专业委员会全国 委员 中国医师协会美容与整形医师分会微创抗</p>
+				</div>
+				<a href="/zj/zgzj/84.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li><li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>周鹏起</h1>
+					<p>Yestar艺星整形(成都)中方院长 整形外科副主任医师 整形外科副教授 美容外科主诊医师 中国医师协会美容与整形医师分会委员 中华医学会医学美学与美容学分会委员 美国射极峰假体中</p>
+				</div>
+				<a href="/zj/zgzj/126.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01H509533.jpg"/></div>
+			<div class="clear"></div>
+		</li><li>
+			<div class="left ic_img"><img src="images/1-150R01H225126.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>雷云飞</h1>
+					<p>院长格言： 我将运用韩国的纯正领先技术与服务流程，秉承对细节一丝不苟的精神，以精细化整形的韩国传统，让女性真正享受到美丽带来的改变! 专家介绍： 大韩整形外科学会终身会</p>
+				</div>
+				<a href="/zj/zgzj/134.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li><li>
+			
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>孙洋</h1>
+					<p>孙洋(中国) 副主任医师 安徽省修复重建学会委员 中国整形美容协会委员 Yestar首尔艺星邀请访问学者 Yestar艺星中方技术院长 医生介绍 孙洋院长，毕业于安徽医科大学整形外科专业，医</p>
+				</div>
+				<a href="/zj/zgzj/95.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			<div class="right ic_img"><img src="images/1-150R01I01KC.jpg"/></div>
+			<div class="clear"></div>
+		</li><li>
+			<div class="left ic_img"><img src="images/1-160414164415164.jpg"/></div>
+			<div class="left ic_desc">
+				<div class="item_nav_tit">
+					<h1>段卿然</h1>
+					<p>段卿然 Yestar毛发移植首席专家中方专家 她的植发之路以荣誉记录 ⊙YSETER艺星全国面部设计金奖 ⊙国际毛发修复协会Associator ⊙大韩毛发移植学会（KSHRS）正会员 ⊙大韩红十字协会红十</p>
+				</div>
+				<a href="/zj/zgzj/734.html" target="_blank" class="btn_box">更多详情</a>
+			</div>
+			
+			<div class="clear"></div>
+		</li>
+	</ul>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('.uneven').slick({
+    	dots:false,
+        infinite: true,
+        speed: 300,
+		autoplay:true,
+		arrows:true,
+		slide:'.con_slider1',
+		pauseOnHover:false,
+        autoplaySpeed:3000,
+        draggable:true,
+		slidesToShow: 4,
+		slidesToScroll:4
+	});
+})
+	
+</script>
+
+
+<!--公用尾部开始-->
+{dede:include filename="footer.htm"

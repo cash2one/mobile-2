@@ -1,0 +1,115 @@
+ .accordion {
+ 	width: 100%;
+ 	max-width: 360px;
+ 	margin: 30px auto 20px;
+ 	background: #FFF;
+ 	-webkit-border-radius: 4px;
+ 	-moz-border-radius: 4px;
+ 	border-radius: 4px;
+ }
+
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 70px;
+	margin-bottom:5px;
+	color: #FDE5BF;
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	background:url("../imgs/n_side_nav.png") center center no-repeat;
+}
+.accordion .link img,.accordion .link span{vertical-align:middle;margin-right:15px;}
+.accordion .submenu li{position:relative;}
+.accordion .submenu li img{position:absolute;right:0px;top:17px;}
+.accordion li:last-child .link {
+	border-bottom: 0;
+}
+
+.accordion li i {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	font-size: 18px;
+	color: #595959;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
+}
+
+.accordion li.open .link {
+	background:url("../imgs/n_side_nav_h.png") center center no-repeat;
+}
+
+.accordion li.open i {
+	color: #b63b4d;
+}
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+ .submenu {
+ 	display: none;
+ 	background: #F8F8F8;
+ 	font-size: 14px;
+	padding:0px 25px;
+ }
+
+ .submenu li {
+ 	border-bottom: 1px dashed #D8D8D8;
+ }
+
+ .submenu a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #5F5F5F;
+ 	padding:12px 0px;
+ 	padding-left:20px;
+ 	-webkit-transition: all 0.25s ease;
+ 	-o-transition: all 0.25s ease;
+ 	transition: all 0.25s ease;
+ }
+
+ .submenu a:hover {
+ 	/*background: #b63b4d;*/
+ 	color: #7633A4;
+ 	font-weight: bold;
+ }
+
+ /* 专家团队 */
+.n_zjtd,.n_alzs{margin-bottom: 20px;}
+.n_zjtd h3,.n_alzs h3{font-size:17px;padding-left:10px;border-left:2px solid #471E62;margin-bottom: 10px;}
+.n_zjtd_show{width:263px;height:170px;margin:10px 0px;overflow:hidden;display:none;}
+.n_zjtd_show.show{display:block;}
+.n_zjtd_01{background:url("../imgs/n_side_nav_01.png")center center no-repeat;}
+.n_zjtd_02{background:url("../imgs/n_side_nav_08.jpg")center center no-repeat;}
+.n_zjtd_03{background:url("../imgs/n_side_nav_09.png")center center no-repeat;}
+.n_zjtd_04{background:url("../imgs/n_side_nav_10.png")center center no-repeat;}
+.n_zjtd_05{background:url("../imgs/n_side_nav_11.png")center center no-repeat;}
+.n_zjtd_06{background:url("../imgs/n_side_nav_12.png")center center no-repeat;}
+.n_zjtd_show p{color:#FFF;padding-left:15px;font-size:14px;margin-bottom:5px;}
+.n_zjtd_show p.m_t{margin-top:50px;}
+.n_zjtd_show p strong{font-size:20px;font-weight:bold;}
+.n_zjtd_wrap{width:276px;}
+.n_zjtd_list{float:left;text-align: center;margin-right:10px;cursor:pointer;}
+
+/* 案例展示 */
+.n_alzs h3 a{float:right;font-size:13px;color:#959595;font-weight:normal;margin-top: 5px;}
+.n_alzs_list{background-color:#ECECEC;margin:10px 0px;}
+.n_alzs_list img,.n_alzs_list .n_alzs_word{float:left;}
+.n_alzs_word p{padding:15px 0px 0px 15px;}

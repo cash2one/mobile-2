@@ -1,0 +1,189 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
+    <script src="{dede:global.cfg_templets_skin/}/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=6ssflahbX3tM5SDvPZpcdfrt"></script>
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="baidu-site-verification" content="cYwltIZZMe" />
+    <title>{dede:global.cfg_webname/}</title>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="n_route_bg_01">
+</div>
+<div class="c_wrap n_route">
+    <div class="c_abs_wrap">
+        <div class="n_route_nav clearfix">
+            <a href="#" class="selected">人工免费查询</a>
+            <a href="#gj">公交路线</a>
+            <a href="#hc">火车站路线</a>
+            <a href="#fj">机场路线</a>
+            <a href="#zj">自驾及出租车</a>
+            <a href="#dp" class="last">患者点评</a>
+        </div>
+    </div>
+    <div class="c_abs_wrap">
+        <h4 class="c_title"><img src="{dede:global.cfg_templets_skin/}/imgs/n_route_01.jpg" alt="医院定位小图标"/>我们的医院在这里</h4>
+        <p class="c_title_sub">OUR HOSPITAL IS HERE</p>
+        <p class="address">达州市红旗路9号红旗大桥北</p>
+        <div id="n_route_map"></div>
+    </div>
+    <div class="c_abs_wrap clearfix" id="gj">
+        <h4 class="c_title"><img src="{dede:global.cfg_templets_skin/}/imgs/n_route_02.jpg" alt="公交车小图标"/>如果您乘坐公交来</h4>
+        <p class="c_title_sub">IF YOU TRAVEL BY BUS</p>
+        <div class="c_layout_wrap img m-r">
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_03.jpg" alt="红旗大桥北站公交车站"/>
+        </div>
+        <div class="c_layout_wrap">
+            <dl>
+                <dt>红旗大桥北站下</dt>
+                <dd>途经2、4、6、10、13、17、18、20、21、301、302路公交，在红旗大桥北站下车，再往红旗大桥方向行走70米左右即可。</dd>
+            </dl>
+            <dl>
+                <dt>红旗电影院</dt>
+                <dd>途经12、16、33路公交，在红旗电影院站下车，再往红旗大桥方向行走200米左右即可。</dd>
+            </dl>
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_04.jpg" class="n_phone" alt="双均美丽热线0818-5357777"/>
+            <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank" class="n_zx_btn">在线咨询 >></a>
+        </div>
+    </div>
+    <div class="c_abs_wrap clearfix" id="hc">
+        <h4 class="c_title"><img src="{dede:global.cfg_templets_skin/}/imgs/n_route_05.jpg" alt="火车小图标"/>如果您乘坐火车/动车来</h4>
+        <p class="c_title_sub">IF YOU TAKE A TRAIN</p>
+        <div class="c_layout_wrap m-r">
+            <dl>
+                <dt>方案一</dt>
+                <dd>出站后前行20米至出租上客地点，您跟师傅说去红旗大桥北的“双均美容医院”，在不堵车的情况下车费一般12-15元左右。</dd>
+            </dl>
+            <dl>
+                <dt>方案二</dt>
+                <dd>出站后前行20米至公交车上客地点，搭乘6路公交车至红旗电影院站下车，再往红旗大桥方向行走200米左右即可。</dd>
+            </dl>
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_04.jpg" class="n_phone" alt="双均美丽热线0818-5357777"/>
+            <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank" class="n_zx_btn">在线咨询 >></a>
+        </div>
+        <div class="c_layout_wrap img">
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_06.jpg" alt="乘坐火车站或动车车站图景"/>
+        </div>
+    </div>
+    <div class="c_abs_wrap clearfix" id="fj">
+        <h4 class="c_title"><img src="{dede:global.cfg_templets_skin/}/imgs/n_route_09.jpg" alt="飞机小图标"/>如果您乘坐飞机来</h4>
+        <p class="c_title_sub">IF YOU COME BY AIR</p>
+        <div class="c_layout_wrap img m-r">
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_07.jpg" alt="河市机场图集"/>
+        </div>
+        <div class="c_layout_wrap">
+            <dl>
+                <dt>方案一</dt>
+                <dd>出站后乘坐出租，您跟师傅说去红旗大桥北的“双均美容医院”，在不堵车的情况下车费一般20-30元左右。</dd>
+            </dl>
+            <dl>
+                <dt>方案二</dt>
+                <dd>出机场大门至公交车上客地点，搭乘302路公交车至红旗大桥北站下车，再往红旗大桥方向行走200米左右即可；或乘坐303至纺织厂站下车，再转出租，起步价5元即可到达。</dd>
+            </dl>
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_04.jpg" class="n_phone" alt="双均美丽热线0818-5357777"/>
+            <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank" class="n_zx_btn">在线咨询 >></a>
+        </div>
+    </div>
+    <div class="c_abs_wrap clearfix" id="zj">
+        <h4 class="c_title"><img src="{dede:global.cfg_templets_skin/}/imgs/n_route_10.jpg" alt="出租车小图标"/>如果您乘坐出租车/自驾来</h4>
+        <p class="c_title_sub">IF YOU TAKE A TRAIN</p>
+        <div class="c_layout_wrap m-r">
+            <dl class="clearfix">
+                <dt>方案一</dt>
+                <dd>您跟师傅说去红旗大桥北的“双均美容医院”即可。</dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>方案二</dt>
+                <dd>您可以导航“双均美容医院”，选择红旗路店即可。</dd>
+            </dl>
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_04.jpg" class="n_phone" alt="双均美丽热线0818-5357777"/>
+            <a href="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn" target="_blank" class="n_zx_btn">在线咨询 >></a>
+        </div>
+        <div class="c_layout_wrap img">
+            <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_08.jpg" alt="出租车乘车图"/>
+        </div>
+    </div>
+    <div class="c_abs_wrap">
+    	<img src="{dede:global.cfg_templets_skin/}/imgs/n_route_11.jpg"/>
+    </div>
+    <div class="c_abs_wrap">
+    	<h4 class="c_title">来了双均后，她们都这样说</h4>
+    	<p class="c_title_sub">WHEN THEY CAME BACK,THEY BOTH SAID</p>
+    	<div class="n_dp">
+    		<div class="title">
+    			<p class="show"><span>姓名：王小姐</span><span>项目：减肥</span><span>主治医生：廖医生</span></p>
+    			<p><span>姓名：申小姐</span><span>项目：双眼皮</span><span>主治医生：刘医生</span></p>
+    			<p><span>姓名：梁小姐</span><span>项目：脱毛</span><span>主治医生：陈医生</span></p>
+    		</div>
+    		<div class="wrap">
+                <div class="gd-wrap">
+                    <div class="js-wrap clearfix">
+                        <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_12.jpg" alt="王小姐和廖医生微信聊天记录"/>
+                        <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_13.jpg" alt="申小姐和刘医生微信聊天记录"/>
+                        <img src="{dede:global.cfg_templets_skin/}/imgs/n_route_14.jpg" alt="梁小姐和陈医生微信聊天记录"/>
+                    </div>
+                </div>
+                <div class="pageCtrl">
+                    <a href="javascript:void(0)" class="active"></a>
+                    <a href="javascript:void(0)"></a>
+                    <a href="javascript:void(0)"></a>
+                </div>
+    		</div>
+    	</div>
+    </div>
+</div>
+{dede:include filename="footer.htm"/}
+<script>
+    var map = new BMap.Map("n_route_map");
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+    var local = new BMap.LocalSearch(map, {
+        renderOptions:{map: map}
+    });
+    local.search("达州市红旗路9号红旗大桥北");
+
+    //点评轮播
+    autoplay();
+
+    var dp_index=1;
+    var clone=$(".gd-wrap .js-wrap img").first().clone();
+    $(".gd-wrap .js-wrap").append(clone);
+    var len=$(".gd-wrap .js-wrap img").length;
+    $(".js-wrap").css("width",len*1005+"px");
+    function dplp(){
+        $(".n_dp .title p.show").removeClass("show");
+        $(".pageCtrl a.active").removeClass("active");
+        if(len-1>dp_index){
+            $(".gd-wrap .js-wrap").stop().animate({"margin-left":"-"+dp_index*1005+"px"},300);
+            $(".n_dp .title p").eq(dp_index).addClass("show");
+            $(".pageCtrl a").eq(dp_index).addClass("active");
+            dp_index++;
+        }else{
+            $(".gd-wrap .js-wrap").stop().animate({"margin-left":"-"+dp_index*1005+"px"},300,function(){
+                $(".gd-wrap .js-wrap").css("margin-left","0px");
+                dp_index=1;
+            });
+            $(".n_dp .title p").eq(0).addClass("show");
+            $(".pageCtrl a").eq(0).addClass("active");
+        }
+    }
+
+    function autoplay(){
+        timer=setInterval("dplp()",5000);
+    }
+
+    $(".gd-wrap .js-wrap img").hover(function(){
+        clearInterval(timer);
+    },function(){
+        autoplay();
+    });
+    $(".pageCtrl a").click(function(){
+        dp_index=$(this).index();
+        dplp();
+    })
+</script>
+</body>
+</html>

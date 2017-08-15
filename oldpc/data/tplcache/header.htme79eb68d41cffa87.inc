@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("global","",12,44);
+$z[0][4]['name']="cfg_templets_skin";
+$z[1]=Array("global","",107,139);
+$z[1][4]['name']="cfg_templets_skin";
+$z[2]=Array("global","",201,233);
+$z[2][4]['name']="cfg_templets_skin";
+$z[3]=Array("global","",276,308);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",375,407);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",479,511);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("type","[field:typelink /]",950,1004);
+$z[6][4]['typeid']="609";
+$z[7]=Array("type","[field:typelink /]",1083,1137);
+$z[7][4]['typeid']="612";
+$z[8]=Array("type","[field:typelink /]",2577,2631);
+$z[8][4]['typeid']="614";
+$z[9]=Array("type","[field:typelink /]",2682,2736);
+$z[9][4]['typeid']="615";
+$z[10]=Array("type","[field:typelink /]",2778,2832);
+$z[10][4]['typeid']="616";
+$z[11]=Array("type","[field:typelink /]",2874,2928);
+$z[11][4]['typeid']="617";
+$z[12]=Array("type","[field:typelink /]",2970,3024);
+$z[12][4]['typeid']="618";
+$z[13]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='33' row='10'}\r\n			  <a href=\"[field:arcurl /]\">[field:title /]</a>\r\n{/dede:arclist}\r\n</li>\r\n",3111,3374);
+$z[13][4]['typeid']="614";
+$z[14]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='33' row='10'}\r\n			  <a href=\"[field:arcurl /]\">[field:title /]</a>\r\n{/dede:arclist}\r\n</li>\r\n",3397,3660);
+$z[14][4]['typeid']="615";
+$z[15]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='33' row='10'}\r\n			  <a href=\"[field:arcurl /]\">[field:title /]</a>\r\n{/dede:arclist}\r\n</li>\r\n",3679,3942);
+$z[15][4]['typeid']="616";
+$z[16]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='33' row='10'}\r\n			  <a href=\"[field:arcurl /]\">[field:title /]</a>\r\n{/dede:arclist}\r\n</li>\r\n",3963,4226);
+$z[16][4]['typeid']="617";
+$z[17]=Array("channelartlist","\r\n<li>\r\n<dt><a href=\"{dede:field name='typeurl'/}\">{dede:field name='typename'/}</a></dt>\r\n{dede:arclist titlelen='33' row='10'}\r\n			  <a href=\"[field:arcurl /]\">[field:title /]</a>\r\n{/dede:arclist}\r\n</li>\r\n",4247,4510);
+$z[17][4]['typeid']="618";
+$z[18]=Array("global","",4587,4619);
+$z[18][4]['name']="cfg_templets_skin";
+
+?>

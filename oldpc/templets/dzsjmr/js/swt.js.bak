@@ -1,0 +1,268 @@
+﻿// JavaScript Document
+// JavaScript Document
+/*var curhost = window.location.host;
+if(curhost=="bj.yestar1992.com"){
+	var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e82134242b120d21b40aa8162b88327b";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+}
+
+if(curhost="www.bjyestar.cn"){
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?9a684530c296f4434b7c109bb8c20c7f";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  console.log('s:*******'+s);
+  console.log('hm:*******'+hm.innerHTML);
+})();
+}*/
+
+
+new FloatM({coords_rt:'175,313,260,355',coords_outline:'530,0,550,20',coords_inline:'0,265,545,355',pictype:'png'});
+// JavaScript Document
+//商务通左右
+//引用商务通
+
+
+document.writeln("<script language=\"javascript\" src=\"http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn\"></script>");
+function openZoosUrl(obj){
+    var ins=$(obj).parents("div").attr("id");
+    var swt="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn"; 
+    window.open(swt);
+}
+
+
+
+/*
+document.writeln("<script language=\"javascript\" src=\"http://swt.bjyestar.com/JS/LsJS.aspx?siteid=PKB31671888&float=1\"></script>");
+function openZoosUrl(obj){
+    var ins=$(obj).parents("div").attr("id");
+    var swt="http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng"+document.referrer+"&p="+window.location.href; 
+    window.open(swt);
+}
+*/
+
+
+//商务通 CSS 开始
+document.writeln("<style type=\"text/css\">");
+document.writeln("/* 格式化 */");
+document.writeln("body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, ");
+document.writeln("input, textarea, th, td, img {");
+document.writeln("	border:medium none;");
+document.writeln("	margin: 0;");
+document.writeln("	padding: 0;");
+document.writeln("}");
+document.writeln("#LRdiv0,#LRdiv1,#LRdiv2,#LRfloater0,#divM,#LR_Flash,#BDBridgeWrap,#LRfloater1{ display: none;}");
+document.writeln("#divM{position: fixed;z-index: 214748364;transition:all 0.8s linear;-webkit-transition:all 0.8s linear;-moz-transition:all 0.8s linear;}");
+document.writeln("/* 格式化 */");
+document.writeln("/*  divM  */");
+document.writeln("#divM{ background:url(/swt/images/center.png) 0 0 no-repeat; right: 50%;bottom: 45%;margin-right:-360px;margin-bottom:-180px;_position: absolute;_bottom: expression(offsetParent.scrollTop+242);}");
+document.writeln("#divM.off {-moz-transform: scale(0,0); -ms-transform: scale(0,0); -o-transform: scale(0,0); -webkit-transform: scale(0, 0); transform: scale(0, 0);margin-bottom:-440px;margin-right:0; right: 100%;bottom:0;}");
+document.writeln("#divM .close{width: 20px;height: 20px;position: absolute;top: 5px;right: 5px;}");
+document.writeln("#divM .more_youhui{width: 145px;height: 25px;line-height:25px;position: absolute;bottom: 128px;right: 100px;color:#fff;font-size:20px;}");
+document.writeln("#divM .more_youhui a{color:#fff;text-decoration:none;}");
+document.writeln("#divM .more_lianjie {bottom:90px;left:20px;position:absolute;}");
+document.writeln("#divM .more_lianjie .more_lianjie_left{bottom:-5px;left:0px;position:absolute;width:445px;font-size:14px;color:#6e4f12}");
+document.writeln("#divM .more_lianjie .more_lianjie_right{bottom:50px;left:342px;position:absolute;width: 315px;height: 19px;}");
+document.writeln("#divM .more_lianjie .more_lianjie_right a{float:left;width:70px;height:19px;background:url(/swt/images/szbtnbg.png) left center no-repeat;padding-left:15px;} ")
+document.writeln("#divM .more_lianjie .more_lianjie_right a+a{ margin-left:30px;} ")
+document.writeln("#divM .send_info {bottom:20px;left:20px;position:absolute;}");
+document.writeln("#divM .send_info_left {bottom:0;left:0;position:absolute;width: 450px;height: 58px;}");
+document.writeln("#divM .send_info_left textarea{width: 440px;height: 58px;overflow-y:hidden;border: 1px solid #999;border-radius: 3px;color:#999999;padding-left:5px;font-size:14px;line-height:18px;}");
+document.writeln("#divM .send_info_right {bottom:-2px;left: 475px;position: absolute;width: 180px;}");
+document.writeln("#divM .send_info_right a{display:block; margin-top:10px;}");
+document.writeln("#divM #divMagb{ right:4px;top:4px; width:20px; height:20px}");
+document.writeln("#divM #divMa1{left:167px}");
+document.writeln("#divM #divMa2{left:271px}");
+document.writeln("#divM #divMagb:hover{background:none}");
+document.writeln("#divM #divMa1:hover{background-position:-227px -255px}");
+document.writeln("#divM #divMa2:hover{background-position:-331px -255px}");
+document.writeln("/*  divM  */");
+document.writeln("/*右下角*/");
+document.writeln("");
+document.writeln(".swtBottom {/*width:250px;height:215px;*/width:0;height:0; color:#fff;padding-bottom:0px; background-color: #fff; position: fixed;left:0; bottom:15px; z-index: 300; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; overflow: hidden;box-shadow: 0 0 35px #000; -webkit-box-shadow: 0 0 35px #000; -moz-box-shadow: 0 0 35px #000; }");
+document.writeln(".swtBottom .title { width: 100%; height:30px; font-size: 16px; color: #fff; background-color: #342d27; position: relative; margin: 0; float: none; }");
+document.writeln(".swtBottom .title span { display: inline-block; height:28px;line-height:28px;font-size:18px; padding-left: 12px; float: left; }");
+document.writeln(".swtBottom .closeBtn { position: absolute; display: block; right: 3px; top: 3px; width: 19px; height: 19px; background-color: #fff; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }");
+document.writeln(".swtBottom .closeBtn:hover { -webkit-animation: rotate360 0.3s ease 1; animation: rotate360 0.3s ease 1; }");
+document.writeln("@-webkit-keyframes rotate360 {  100% {");
+document.writeln("-webkit-transform:rotate(720deg);");
+document.writeln("}");
+document.writeln("}");
+document.writeln("@keyframes rotate360 {  100% {");
+document.writeln("transform:rotate(720deg);");
+document.writeln("}");
+document.writeln("}");
+document.writeln(".swtBottom .closeBtn:before { position: absolute; left: 50%; top: 50%; content: \'\'; width: 14px; height: 1px; margin-left: -7px; margin0top: -1px; background-color: #937344; -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transformrotate(-45deg);-webkit-transform: rotate(-45deg); transform: rotate(-45deg); }");
+document.writeln(".swtBottom .closeBtn:after { position: absolute; left: 50%; top: 50%; content: \'\'; width: 14px; height: 1px; margin-left: -7px; margin0top: -1px; background-color: #937344; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }");
+document.writeln(".chatBox { width: 100%;}");
+document.writeln(".chatBox .welcomeWord {width:180px; height:45px; line-height:22px;background: url(/swt/images/swtRightIcon.png) no-repeat 0px 0px; margin-top:15px; margin-left: 4px; font-size: 16px;padding:5px 26px 5px 23px;-moz-box-sizing: content-box; -ms-box-sizing: content-box; -o-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }");
+document.writeln(".chatTxt{margin:4px 0px 10px 15px;background:url(/swt/images/swtRightIcon.png) no-repeat -10px -60px;height:55px;}")
+document.writeln(".chatTxt .txt {overflow: hidden; float:left; display:inline-block; -moz-box-sizing: content-box; -ms-box-sizing: content-box; -o-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;padding:11px 8px 0 9px;}");
+document.writeln(".chatTxt .txt textarea {display: block;color:#8a8a8a; padding:3px; border: none; background-color: transparent; width:130px;max-width:130px; height:30px; max-height:30px;font-size: 14px; line-height:23px; outline: none;resize: none;}");
+document.writeln(".chatTxt .txt textarea:focus { outline: none; }");
+document.writeln(".chatTxt .txtSubmit {display: block;margin-top:5px; padding:8px; float:left; text-align: center; background-color: #171923; color: #fff; text-decoration: none; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;margin-left:10px; display: inline-block; line-height: 14px; -moz-box-sizing: content-box; -ms-box-sizing: content-box; -o-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }");
+document.writeln(".chatTxt .txtSubmit span { display: block; }");
+document.writeln(".chatTxt .txtSubmit span:first-child { font-size: 14px; }");
+document.writeln(".chatTxt .txtSubmit span:last-child { font-size: 12px; }");
+document.writeln(".clearfix:after{clear:both;display:block;width:100%;content:'';}");
+document.writeln(".clearfix:before{clear:both;display:block;width:100%;content:'';}");
+
+//lxb
+document.writeln(".mfhd {width:220px;height:30px;-moz-border-radius:17px;-webkit-border-radius:17px;border-radius:17px;margin-left:15px; background:url(/swt/images/swtRightIcon.png) no-repeat -10px -125px;}");
+document.writeln(".mfhd  input {width:130px;height:24px;line-height:24px; background:transparent;font-size:14px;color:#6a7380;-moz-border-radius:15px 0 0 15px;-webkit-border-radius:15px 0 0 15px;border-radius:15px 0 0 15px;padding:3px 5px 0 10px;float:left;outline:none;}");
+document.writeln(".mfhd a {width:74px;height:30px;line-height:30px;color:#fff;font-size:12px;text-align:center;text-decoration:none;-moz-border-radius:0 14px 14px 0;-webkit-border-radius:0 14px 14px 0;border-radius:0 14px 14px 0;float:left;}");
+
+document.writeln("</style>");
+
+
+function FloatM(json){
+    this.coords_rt=json.coords_rt||'0,0,0,0';//右上角关闭坐标
+    this.coords_inline=json.coords_inline||'0,0,0,0';//图片中咨询坐标
+    this.coords_inline_rt=json.coords_inline_rt||'0,0,0,0';//图片中咨询坐标
+    this.coords_outline=json.coords_outline||'0,0,0,0';//图片中关闭坐标
+    this.pictype=json.pictype||'gif';//图片格式
+    //中间弹出框
+    document.writeln("<div id=\"divM\"> <img src=\"/swt/images/center."+ this.pictype+"\" border=\"0\" usemap=\"#MapM\">");
+    document.writeln("<div class='close'>");
+    document.writeln("<a href=\"javascript:void(0);\" onclick=\"closeM()\" target=\"_self\"/><img src=\"/swt/images/close.png\"></a>");
+    document.writeln("</div>");
+	document.writeln("<div class=\"more_lianjie\">");
+	document.writeln("<div class=\"more_lianjie_left\">");
+	document.writeln("<span>双均温馨提醒：整形美容前做好咨询设计，是您美丽蝶变步</span>");
+	document.writeln("</div>");
+	document.writeln("<div class=\"more_lianjie_right\">");
+	document.writeln("<a href=\"javascript:void(0)\" onclick=\"openZoosUrl();return false;\" target=\"_blank\"><img src=\"/swt/images/szbtn01.png\"></a>");
+	document.writeln("<a href=\"javascript:void(0)\" onclick=\"openZoosUrl();return false;\" target=\"_blank\"><img src=\"/swt/images/szbtn02.png\"></a>");
+	document.writeln("<a href=\"javascript:void(0)\" onclick=\"openZoosUrl();return false;\" target=\"_blank\"><img src=\"/swt/images/szbtn03.png\"></a>");
+	document.writeln("</div>");
+	document.writeln("</div>");
+	document.writeln("<div class=\"send_info\">");
+	document.writeln("<div class=\"send_info_left\">");
+	document.writeln("<textarea type=\"text\" name=\"fname\" placeholder=\"我想隆鼻，我想割双眼皮，我想美肤……\"></textarea>  <!--value=\"\" onfocus=\"if(this.value == '我想隆鼻，我想割双眼皮，我想美肤……') this.value = '';\" onblur=\"if(this.value == '') this.value我想隆鼻，我想割双眼皮，我想美肤……';\"/>-->");
+	document.writeln("</div>");
+	document.writeln("<div class=\"send_info_right\">");
+	document.writeln("<span><img src=\"/swt/images/szbtn04.jpg\"></span>");
+	document.writeln("<a href=\"javascript:void(0)\" onclick=\"openZoosUrl();return false;\" target=\"_blank\" style=\"margin-left:8px;\"><img src=\"/swt/images/szbtn05.jpg\"></a>");
+	document.writeln("</div>");
+	document.writeln("</div>");
+    document.writeln("</div>");
+}
+document.writeln("<style type=\"text/css\">");
+document.write('#zuobian{position:fixed; top:40%; margin-top:-162px;z-index:999;left: 0;}')
+document.write('#zuobian:hover{cursor:pointer}')
+document.write('#zuobian_close{left:105px;position:absolute;top:0px;}')
+document.writeln("</style>");
+/*//商务通左边
+document.write('<div id="zuobian">')
+document.write('<div id="zuobian_close">')
+document.write('<img onclick=\"zuobian_close();return false;" src=\"/swt/images/swt_close.jpg">')
+document.write('</div>')
+document.write('<a href=\"javascript:void(0)\" onclick=\"openZoosUrl();return false;\" target=\"_blank\"><img src=\"/swt/images/swt_zuobian.jpg"></a>')
+document.write('</div>')*/
+//商务通右下角
+document.writeln("<div class=\"swtBottom\" id=\"swtBottom\">");
+document.writeln("	<div class=\"title\">");
+document.writeln("    	<span>快速咨询</span>");
+document.writeln("        <a href=\"javascript:void(0)\" class=\"closeBtn\"></a>");
+document.writeln("    </div>");
+document.writeln("    <div class=\"chatBox\">");
+document.writeln("    	<div class=\"welcomeWord\">您好，请问您想咨询什么项目呢？");
+document.writeln("</div>");
+document.writeln("    </div>");
+document.writeln("    <div class=\"chatTxt clearfix\">");
+document.writeln("    	<div class=\"txt fr\"><textarea id=\"myInput\"  placeholder=\"在此输入可直接对话\"></textarea></div>");
+document.writeln("        <a href=\"/swt/\"  class=\"txtSubmit fr\" target=\"_blank\"><span>发送</span><span>Enter</span></a>");
+
+document.writeln("    </div>");
+//电话
+document.writeln("        <div class=\"mfhd clearfix\">");
+document.writeln("        	<input type=\"tel\" class=\"callbF_text\" id=\"callbF_text\" onclick=\"this.value = \'\'\" onblur=\"if(value == \'\'){value=\'请输入您的电话号码\'}\" value=\"请输入您的电话号码\" name=\"callbF_text\"/>");
+document.writeln("            <a id=\"callbF_sub\" class=\"callbF_sub\" href=\"javascript:void(0)\">免费回电</a>");
+document.writeln("            ");
+document.writeln("        </div>");
+//end 电话
+document.writeln("</div>");
+
+
+
+/*回电电话引入*/
+document.writeln('<script type="text/javascript"  data-lxb-uid="9755130" data-lxb-gid="233257" src="http://lxbjs.baidu.com/api/asset/api.js?t=' + new Date().getTime() + '" charset="utf-8"><\/script>' );	
+document.writeln('<script>');
+document.writeln('document.getElementById("callbF_sub").onclick=function(){');
+document.writeln('lxb.call(document.getElementById("callbF_text"));};');
+document.writeln('<\/script>');
+
+
+
+//商务通 CSS 结束
+/*
+ *  中间弹框
+ */
+	/*//左边弹窗
+	setTimeout("zuobian_open()",20000);
+	
+	//打开左边弹窗
+	function zuobian_open(){
+		$("#zuobian").fadeIn(500);
+		$openM();
+	}
+	//关闭左边弹窗
+	function zuobian_close(){
+		$("#zuobian").fadeOut(500);
+	}*/
+	
+	//中间弹窗
+	function $openM(){
+		setTimeout("switch_flag()",100000);
+	}
+	//中间弹窗显示，右下角弹窗关闭
+	function switch_flag(){
+		$("#divM").fadeIn(0);
+		$(".swtBottom").animate({width:0,height:0},500);
+	}
+	var t;
+	//关闭中间弹窗
+	function closeM(){
+		$("#divM").addClass("off");
+		//打开右下角
+		setTimeout(function(){
+			$(".swtBottom").animate({width:250+"px",height:215+'px'},6000)
+		},800);
+		t=setTimeout(function(){
+			$("#divM").removeClass("off");
+			$(".swtBottom").animate({width:0,height:0},6000);
+		},19000)
+	}
+	
+	//输入内容直接跳至商务通
+	$(function(){
+		$openM();
+		$("#divM .send_info_left textarea , .swtBottom #myInput").click(function(e) {
+            openZoosUrl();
+        });	
+		
+		//关闭右下角
+		$(".swtBottom").find(".closeBtn").on("click",function(){
+			$(".swtBottom").animate({width:0,height:0},800,function(){
+				clearTimeout(t);
+				setTimeout(function(){
+					$("#divM").removeClass("off");
+				},19000)
+				
+			})
+		});
+			//enter键发送
+		$(".swtBottom").find("textarea").keyup(function (e) {  
+		   if (e.which == 13){  
+				$(".chatTxt>a").click();
+		   }  
+		});
+	
+	});

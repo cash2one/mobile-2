@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*================公共样式部分===============*/
+*{ margin:0; padding:0}
+body {font-family:微软雅黑;opacity:0;filter:alpha(opacity=0);font-size:0.01rem;}
+.hs{ color:#ff2f2f;}
+.hs1{color:#ff6900}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a,a:link,a:visited,a:hover,a:active {text-decoration: none;}
+img{height:auto;border:none;vertical-align:top;}
+ul{list-style-type: none;}
+.fl{ float:left;}
+.fr{ float:right;}
+.fix:after{ clear:both; content:"."; height:0px; overflow:hidden; visibility:hidden }
+.fix{*zoom:1;}
+
+
+/*外层宽度*/
+.wrap{max-width:640px;min-width:320px; margin:auto;overflow:hidden;}
+.banner{ width:100%; position:relative; overflow:hidden}
+.wenzi{ width:100%; padding:0.2rem; font-size:0.22rem; line-height:0.36rem; box-sizing:border-box}
+.banner .otxt{ position:absolute; width:6rem; left:0.25rem; top:5rem;font-size:0.22rem; color:#FFFFFF; line-height:0.32rem;}
+.part1{ width:100%; overflow:hidden; padding:0.15rem 0;}
+.part1 .cao{ width:50%; font-size:0.18rem;display:-webkit-box; display:flex; box-sizing:border-box; padding-left:0.1rem;}
+.part1 .cao .quan{ width:1rem; height:1rem; line-height:0.3rem;font-size:0.25rem; background:#b5c1df; text-align:center;display:-webkit-box; display:flex;-webkit-box-align:center;align-items:center; border-radius:0.5rem; color:#0b1839;justify-content:center;-webkit-box-pack:center}
+.part1 .cao .txt{ width:2rem; height:1rem; margin-left:0.1rem; color:#000;display:-webkit-box; display:flex;-webkit-box-align:center;align-items:center}
+.part1 .cao:nth-of-type(2n+1){width:40%; float:left; padding-left:0.3rem}
+.part1 .cao:nth-of-type(2n){width:55%; float:right}
+
+.part1 .cao:nth-of-type(2n+1) .txt{width:1.2rem;}
+.part1 .cao:nth-of-type(2n) .txt{width:2.2rem;}
+
+.p2pic{ width:100%; position:relative; font-size:0.18rem; color:#FFFFFF; line-height:0.28rem;}
+.p2pic .one{ position:absolute; width:1.3rem; left:0.15rem; top:2.2rem; text-align:center;}
+.p2pic .two{ position:absolute; width:1.3rem; left:1.5rem; top:2.2rem; text-align:center;}
+.p2pic .three{ position:absolute; width:1.3rem; left:2.83rem; top:2.2rem; text-align:center;}
+.p2pic .four{ position:absolute; width:3.5rem; left:0.23rem; top:3rem;}
