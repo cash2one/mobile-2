@@ -23,6 +23,7 @@ $db = new mysql($mysql_server);
 	$db->show_error = false;
 //}
 
+
 // session ¥¶¿Ì:
 require ROOT."core/session.php";
 

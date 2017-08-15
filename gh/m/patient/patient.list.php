@@ -145,6 +145,7 @@ if ($uinfo["part_id"] == 12) {
 }
 
 $time_type = empty($time_type) ? 'order_date' : $time_type;
+$where[] = 'is_del = 0';
 if ($begin_time > 0) {
 	$where[] = $time_type.'>='.$begin_time;
 }
@@ -488,11 +489,11 @@ foreach ($list_data as $li) {
 		} else {
 			$can_edit = 1;
 		}
-		if ((check_power("edit") && $can_edit && $_SESSION[$cfgSessionName]["part_id"]!=11) || $debug_mode) {//111111111111111111111111111
+		//if ((check_power("edit") && $can_edit && $_SESSION[$cfgSessionName]["part_id"]!=11) || $debug_mode) {//111111111111111111111111111
 			$op[] = "<a href='?op=edit&id=$id&go=back' class='op'><img src='/res/img/b_edit.gif' width='16' height='16' align='absmiddle' alt='修改'></a>";
-		}
+		//}
 		//判断删除权限:
-		$can_delete = 0;
+		$can_delete = 1;
 		if (check_power("delete")) {
 			// 资料提交者本人，在没有修改的情况下，可以删除
 			if ($li["author"] == $realname) {
