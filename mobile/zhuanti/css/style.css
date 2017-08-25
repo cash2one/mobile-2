@@ -11,14 +11,9 @@ a{text-decoration:none;}
 .right{ float:right;}
 .clear{ font-size:0; line-height:0; clear:both; overflow:hidden; zoom:1;}
 
-.bgfff{background-color:#ffffff}
-
 .head{width:100%; margin:0 auto;background-color:#2e3641;padding-bottom:0.2rem;}
 .head  img{width:52%; margin:0 auto; }
 .head a img{width:8%; margin:0 auto;}
-
-.top000 ul{background-color:#2e3641;}
-.top000 ul li{background-color:#2e3641; text-align:center;line-height:3;}
 
 
 .top{width:100%; position:relative}
@@ -41,36 +36,6 @@ a{text-decoration:none;}
 .banner .pag {text-align: center;height:0.2rem;position:absolute;bottom:0;left:0%; width:100%;z-index:5;}
 .banner .pag .swiper-pagination-switch {display: inline-block;width: 0.15rem;height:0.15rem; margin-right:0.1rem;border-radius:0.15rem; background:#bdbdbd;vertical-align:top}
 .banner .pag .swiper-active-switch {background:#8e61a7;}
-
-
-.index_keshi{width:100%; background-color:#ffffff;}
-.index_keshi ul{width:90%; margin:0 auto; padding:0.3rem 0;}
-.index_keshi ul li{float:left; width:25%; text-align:center;}
-.index_keshi ul li img{width:60%}
-.index_keshi ul li h2{color:#727272; font-size:0.28rem; font-style:normal; padding-top:0.2rem; padding-bottom:0.4rem;}
-
-.index_news{width:100%; height:1.19rem; background:url(../images/index_newstit.png) no-repeat center; background-size:100% 100%; margin-top:2px;}
-.index_news a{color:#474747; font-size:0.3rem; margin-left:2.3rem; width:5rem; display:block; padding-top:0.3rem;}
-.index_news .date{padding-left:2.3rem; color:#8b8b8b; font-size:0.24rem;}
-
-.indexpa{width:100%; background-color:#ffffff;}
-.indexp{border:0px solid #e1e1e1; height:auto; margin:0 auto; width:7.1rem;}
-.indexp ul{width:90%; margin:0 auto; padding:0.3rem 0;}
-.indexp ul li{float:left; width:33%; text-align:center;}
-.indexp li img{width:90%;}
-.indexp ul li h2{color:#727272; font-size:0.28rem; font-style:normal; padding-top:0.2rem; padding-bottom:0.4rem;}
-
-.dgtp{width:100%; background-color:#ffffff;}
-.dgtp img{width:100%}
-
-.maplt{width:100%; background-color:#2f1846;text-align:center;}
-.maplt h2{width:100%;font-size:0.28rem; font-style:normal;color:#FFF;padding-top:0.2rem; padding-bottom:0.4rem;}
-.maplt img{width:60%;padding-bottom:0.4rem}
-
-.index_ssss{width:100%; background-color:#ffffff;}
-.index_ssss ul{width:100%; margin:0 auto; padding:0.28rem;}
-.index_ssss ul li{float:left; width:25%; text-align:center;}
-.index_ssss ul li img{width:80%;}
 
 
 
