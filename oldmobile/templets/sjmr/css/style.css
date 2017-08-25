@@ -227,3 +227,12 @@
 .gunbox .uplist{height:32px; line-height:32px; font-size:12px;}
 .foot-fd{font-size:13px; line-height:15px;}
 }
+.show-touck{
+    position: fixed;
+    right:15px;
+    bottom: 30px;
+    background: url("../images/img-touck.png");
+    width: 62px;
+    height: 62px;
+    z-index: 9999;
+}
