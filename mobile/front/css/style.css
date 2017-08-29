@@ -14,18 +14,13 @@ a{text-decoration:none;}
 .bgfff{background-color:#ffffff}
 
 
-.header{width:100%;margin:0 auto;padding:0;background-image:url(../images/hreadbg.png);background-size:cover;}
-.header  img{width:60%; margin:0 auto;}
-.header a img{width:18%; margin:0 auto; float:right;position:relative;top:-0.4rem;right:0.18rem;}
-.hea1 {width:14%;margin:0 auto;float:left;position:relative;top:-0.02rem;left:0.26rem;}
-.hea2{width:auto;margin:0 auto;position:relative;top:0.26rem;left:0.4rem;font-size:0.36rem;color:#fff;}
-.hea2 img{width:0.36rem;position:relative;top:0.08rem;float:left;padding-right:0;}
-.hea2 p{position:relative;top:0.2rem;}
-.hea2 span{width:0.02rem;font-size:0.12rem;color:#8099d8;}
-
-.hea3 {margin:0 auto;float:right;}
-.hea3 img{width:1px;height:0.88rem;color:#4c8ec0;position:relative;top:-0.4rem;right:2.2rem;}
-
+.header{width:100%;background-image:url(../images/hreadbg.png);background-size:cover;overflow: hidden;}
+.hea1 {width:8%;margin-left:15px;float:left;}
+.hea1  img{width:100%; margin-top:-15px;}
+.hea2{float: left;width: 58%; height: 53px; margin-left:6%;}
+.hea2 img{width: 100%;margin-top:-12.5px; padding-right: 8%; border-right: 1px solid #71bbf5;box-shadow: 1px 0 0 0 #4c8ec0;}
+.hea4 {margin-right:15px; float: right; width: 16%; height: 53px;}
+.hea4 img{width: 100%;margin-top:-14px;}
 
 .top000 ul{background-color:#2e3641;}
 .top000 ul li{background-color:#2e3641; text-align:center;line-height:3;}
