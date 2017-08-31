@@ -28,12 +28,12 @@
 			display:inline-block;
 			}
 			.div3{width:96%;border:1px solid #ccc;margin-bottom:0.38rem;}
-			.div1{width:20%;}
+			.div1{width:18%;}
 			.div1 img{width:80%;}
 			.div1 ul li{float:;list-style:none;height:auto;}
 			.div1 ul li:hover{background-color:#fff;}
 			.div2{float:right;width:70%;}
-			.div2 img{width:160%;}
+			.div2 img{position:relative;top:12px;left:-20px;width:164%;}
 			.div2 li{width:60%;color: #FFFFFF;}
 			.div2 li:first-child{background: ;}
 			.div2 li:nth-child(2){background:#000;}
@@ -53,10 +53,22 @@
 		</script>
 </head>
 <body>
-
-	<div class="ztsyp"><img src="images/ztbls01.jpg"></div>
+<div class="header">
+    <div class="hea1">
+        <a href="../menu01/all.htm"><img src="images/qb.png"/></a>
+    </div>
+    <div class="hea2">
+        <img src="images/head-company.png"/>
+	</div>
+    <div class="hea3">
+    </div>
+    <div class="hea4">
+        <img src="images/tel.png"/>
+    </div>
+    <div class="clear"></div>
+</div>	
+	<div class="ztsyp" style="position:relative;top:-0.26rem;"><img src="images/ztbls01.jpg"></div>
 	<div class="ztbls">
-		<div>&nbsp;</div>
 		<h1>你与美丽的距离 <span>只差一支玻尿酸</span></h1>
 		美丽时刻玻尿酸来助力
 		<img src="images/ztbls1.jpg">
@@ -113,7 +125,7 @@
 	<div class="div3">
 		<div class="div1">
 			<ul>
-				<li id="qh1" onMouseOver="setTab('qh',1,3)" class="hover"><img src="images/a.png"></li>
+				<li id="qh1" onMouseOver="setTab('qh',1,3)" class="hover" style=""><img src="images/a.png"></li>
 				<li id="qh2" onMouseOver="setTab('qh',2,3)" class=""><img src="images/b.png"></li>
 				<li id="qh3" onMouseOver="setTab('qh',3,3)" class=""><img src="images/c.png"></li>
 				<li id="qh4" onMouseOver="setTab('qh',4,4)" class=""><img src="images/d.png"></li>
@@ -124,7 +136,7 @@
 			<ul>
 				<li id="con_qh_1" style="display: block;"><img src="images/a_.jpg"></li>
 				<li id="con_qh_2" style="display: none;"></li>
-				<li id="con_qh_3" style="display: none;"><img src="images/a_.jpg"></li>
+				<li id="con_qh_3" style="display: none;"></li>
 				<li id="con_qh_4" style="display: none;"></li>
 			</ul>
 		</div>

@@ -37,13 +37,11 @@ a{text-decoration:none;}
 .banner .pag .swiper-pagination-switch {display: inline-block;width: 0.15rem;height:0.15rem; margin-right:0.1rem;border-radius:0.15rem; background:#bdbdbd;vertical-align:top}
 .banner .pag .swiper-active-switch {background:#8e61a7;}
 
-
-
 .ztsyp{width:100%; margin:0 auto;height:auto;}
 .ztsyp img{width:100%;display:block;}
 
 .ztbls{width:100%; margin:0 auto;text-align:center;font-size:0.34rem;padding:0.1rem 0.2rem 0.28rem;color:#a1a1a1;}
-.ztbls h1{font-size:0.42rem;padding-bottom:0.18rem;color:#5938bd;}
+.ztbls h1{font-size:0.42rem;margin:0.18rem 0;color:#5938bd;}
 .ztbls h1 span{color:#474747;}
 .ztbls img{width:80%;}
 .ztbls_i {width:100%;}

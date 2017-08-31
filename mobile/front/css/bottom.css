@@ -8,6 +8,15 @@
 
 .fr{ float:right;}
 
+.header{width:100%;background-image:url(../images/hreadbg.png);background-size:cover;overflow: hidden;}
+.hea1 {width:8%;margin-left:15px;float:left;}
+.hea1  img{width:100%; margin-top:-15px;}
+.hea2{float: left;width: 58%; height: 53px; margin-left:6%;}
+.hea2 img{width: 100%;margin-top:-12.5px; padding-right: 8%; border-right: 1px solid #71bbf5;box-shadow: 1px 0 0 0 #4c8ec0;}
+.hea4 {margin-right:15px; float: right; width: 16%; height: 53px;}
+.hea4 img{width: 100%;margin-top:-14px;}
+
+
 .dwn{width:100%; z-index:999; overflow:hidden; position:fixed; bottom:0; text-align:center; margin:0 auto;margin-left: -0rem;bottom: 0;}
 .fix:after{ clear:both; content:""; height:0px; display:block; overflow:hidden; visibility:hidden; }
 .fix{*zoom:1;}
