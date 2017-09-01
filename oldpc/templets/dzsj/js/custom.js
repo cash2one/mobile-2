@@ -209,7 +209,7 @@ $(function () {
 
     $('.n_dzsj').click(function () {
         if ($(this).hasClass('bg_0')) {
-            window.open('/huodong/qixi.html');
+            window.open('http://pdt.zoosnet.net/LR/Chatpre.aspx?id=PDT21034666&lng=cn');
         }
     });
 });
