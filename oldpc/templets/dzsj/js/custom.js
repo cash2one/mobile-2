@@ -219,14 +219,14 @@ function returnTop() {
 }
 
 //首页中间弹出对话框
-// $(function () {
-//     var f = setTimeout("popupShow()", 15000);
-//     $(".n_popup_closed").click(function () {
-//         clearTimeout(f);
-//         $(".n_popup").css({"top": "-50px", "opacity": "0", "z-index": "-1"});
-//         setTimeout("popupShow()", 50000);
-//     });
-// });
+$(function () {
+    var f = setTimeout("popupShow()", 10000);
+    $(".n_popup_closed").click(function () {
+        clearTimeout(f);
+        $(".n_popup").css({"top": "-50px", "opacity": "0", "z-index": "-1"});
+        setTimeout("popupShow()", 10000);
+    });
+});
 
 function popupShow() {
     $(".n_popup").css({"top": "0px", "opacity": "1", "z-index": "9"});

@@ -23,14 +23,14 @@
 .dwn ul {width:7.5rem;}
 .dwn ul li{width: 33%;float: left;}
 .dwn a{ width: 100%;height: 100%; font-size:0.32rem; color:#fff;display: block;font-family: "微软雅黑" ;padding-top: 0.3rem;}
-.dwn li{ height:1.32rem; text-align:center; float:left; font-size:0.3rem;}
+.dwn li{ height:1.22rem; text-align:center; float:left; font-size:0.3rem;}
 .dwn li:nth-of-type(1) a{background: #eb3081;}
 .dwn li:nth-of-type(2) a{background: #6100b1;}
 .dwn li:nth-of-type(3) a{background: #ea0001;}
-.do_o_o img{width:30%;}
-.do_o_s img{width: 26%;}
-.do_o_t img{width: 28%;}
-
+.do_o_o img{width:26%;}
+.do_o_s img{width: 22%;}
+.do_o_t img{width: 26%;position:relative;top:-0.12rem;}
+.fix p{position:relative;top:-0.1rem;}
 
 
 

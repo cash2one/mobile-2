@@ -1,17 +1,17 @@
 /* 代码整理：大头网 www.datouwang.com
 .Z_con2_2{width:100%;background:#ffffff;height: 100%;osition:fixed;} */
-.Z_con2_2{width:100%;background:#ffffff;overflow-y:auto;osition:fixed;}
+.Z_con2_2{width:100%;background:#3f4754;height: 100%;overflow-y:auto;}
 
-.F_wd_top_con2{width:100%;  background:#ffffff; border-top:0.1em solid #ccc;osition:fixed;}
+.F_wd_top_con2{width:100%;  background:#ffffff; border-top:0.1em solid #ccc;}
 
 .F_wd_top_con2_l{width:45%; background:#f2f2f2; float:left;height: 100%;}
-.F_wd_top_con2_l ul li { line-height:3.5em; text-indent:1em; background:#2e3641;}
+.F_wd_top_con2_l ul li { line-height:3.5em; text-indent:1em; background:#1e2432;}
 .F_wd_top_con2_l ul li img{width:25%;}
 .F_wd_top_con2_r{width:55%;float:right;height: 100%;}
-.F_wd_top_con2_r ul li{ line-height:3.2em; text-indent:1em; background:#f2f2f2;}
+.F_wd_top_con2_r ul li{ line-height:3.2em; text-indent:1em; background:#3f4754;}
 
-.F_wd_top_con2_r_borb1{ border-bottom:0.1em solid #2b57ae;}
-.F_wd_top_con2_r_borb2{ border-bottom:0.1em solid #fff; color:#2b57ae;}
+.F_wd_top_con2_r_borb1{ border-bottom:0.1em solid ;}
+.F_wd_top_con2_r_borb2{ border-bottom:0.1em solid ;}
 
 
 .F_wd_top_con2_l_1{ width:40%; float:left;}
@@ -25,7 +25,7 @@
 .F_wd_top_con2_r_2 ul li{ line-height:3.2em; text-indent:1em;}
 
 
-.current{background: ; color: #2b57ae;text-align:center;}/* 点击的时候改变 */
+.current{color: #fff;text-align:center;}/* 点击的时候改变 */
 .by{display: none;}
 
 
